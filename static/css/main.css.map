@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAe;EACb,gBAAgB,EAAE,OAAO",
+"sources": ["../../sass/foundation/colors.scss"],
+"names": [],
+"file": "main.css"
+}
