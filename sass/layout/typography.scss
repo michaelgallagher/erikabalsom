@@ -1,0 +1,51 @@
+// Set the base type styles and sizes
+// TODO: Reset the base size for each breakpoint
+
+
+/* Font stack mixins
+(so I don't have to keep typing this shit)
+----------------------------------------------------------------------------- */
+
+@mixin sans-roman {font-family: 'SansRoman-Regular', Helvetica, Arial, sans-serif;}
+@mixin sans-roman-rotalic {font-family: 'SansRoman-Rotalic', Helvetica, Arial, sans-serif;}
+@mixin artisan {font-family: 'Artisan-Regular', Courier, monospace;}
+@mixin romansque {font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;}
+@mixin shelter {font-family: 'Shelter-Medium', Helvetica, Arial, sans-serif;}
+
+
+/* Font sizing
+----------------------------------------------------------------------------- */
+
+$font-tiny:   18px;
+$font-small:  24px;
+$font-medium: 28px;
+$font-large:  33px;
+$font-huge:   36px;
+
+@mixin body-font {
+	font-size: $font-tiny;
+	@include breakpoint(small)  {font-size: $font-small;}
+	@include breakpoint(medium) {font-size: $font-medium;}
+	@include breakpoint(large)  {font-size: $font-large;}
+	@include breakpoint(huge)   {font-size: $font-huge}
+}
+
+
+/* Basics - the foundational stuff
+   This is just for setting up all the basic parts
+   This is NOT for setting the size and fonts for every page type
+   All of that stuff goes in the CSS for each kind of page
+----------------------------------------------------------------------------- */
+
+body {
+  @include sans-roman;
+  @include body-font;
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
+  font-weight: normal;
+  font-size: 1em;
+}
