@@ -1,0 +1,17 @@
+.sticky-footer {
+  background-color: $theme-background;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 94px;
+  /*
+    this needs to be set in PX to match the nav height
+    so there will need to be breakpoint sizes here
+  */
+}
+.sticky-footer-inner-1 {
+  @include margins-horiz;
+}
+.sticky-footer-inner-2 {
+  border-top: 20px solid #000;
+}

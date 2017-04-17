@@ -52,3 +52,9 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-weight: normal;
   font-size: 1em;
 }
+
+h1 {
+	@include shelter;
+	font-size: 3em;
+	color: $theme-faded;
+}

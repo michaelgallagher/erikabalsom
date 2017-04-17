@@ -42,7 +42,7 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 100px; }
+  padding-top: 120px; }
   @media screen and (min-width: 650px) {
     .content {
       padding-left: 24px;
@@ -61,16 +61,16 @@ html, body {
       padding-right: 38px; } }
   @media screen and (min-width: 650px) {
     .content {
-      padding-top: 120px; } }
+      padding-top: 144px; } }
   @media screen and (min-width: 900px) {
     .content {
-      padding-top: 135px; } }
+      padding-top: 162px; } }
   @media screen and (min-width: 1150px) {
     .content {
-      padding-top: 160px; } }
+      padding-top: 192px; } }
   @media screen and (min-width: 1500px) {
     .content {
-      padding-top: 190px; } }
+      padding-top: 228px; } }
 
 /* Font stack mixins
 (so I don't have to keep typing this shit)
@@ -105,11 +105,16 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-weight: normal;
   font-size: 1em; }
 
+h1 {
+  font-family: 'Shelter-Medium', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  color: #bbb; }
+
 .navigation {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   padding-top: 20px;
+  background-color: #fbfbfb;
   overflow: hidden;
-  background-color: red;
   position: fixed;
   width: 100%;
   top: 0; }
@@ -161,8 +166,58 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
     text-decoration: none;
     text-align: center; }
   .navigation li a:hover {
-    color: #ff0000; }
+    color: #ff3c4f; }
   .navigation li.nav-name {
     padding-right: 50px; }
+  .navigation .nav-item {
+    color: #bbb; }
+  .navigation .nav-current {
+    color: #000; }
+
+.sticky-footer {
+  background-color: #fbfbfb;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 94px;
+  /*
+    this needs to be set in PX to match the nav height
+    so there will need to be breakpoint sizes here
+  */ }
+
+.sticky-footer-inner-1 {
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media screen and (min-width: 650px) {
+    .sticky-footer-inner-1 {
+      padding-left: 24px;
+      padding-right: 24px; } }
+  @media screen and (min-width: 900px) {
+    .sticky-footer-inner-1 {
+      padding-left: 27px;
+      padding-right: 27px; } }
+  @media screen and (min-width: 1150px) {
+    .sticky-footer-inner-1 {
+      padding-left: 32px;
+      padding-right: 32px; } }
+  @media screen and (min-width: 1500px) {
+    .sticky-footer-inner-1 {
+      padding-left: 38px;
+      padding-right: 38px; } }
+
+.sticky-footer-inner-2 {
+  border-top: 20px solid #000; }
+
+/*
+Add styles for each of the page types
+that are not covered elswhere
+*/
+html {
+  background-color: #fbfbfb; }
+
+/*
+To do:
+- set colours for each page, this includes the thick rule, etc.
+*/
 
 /*# sourceMappingURL=main.css.map */

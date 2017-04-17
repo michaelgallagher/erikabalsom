@@ -1,8 +1,8 @@
 .navigation {
   @include romansque;
   @include margin-vert-top;
+  background-color: $theme-background;
   overflow: hidden;
-  background-color: red;
   position: fixed;
   width: 100%;
   top: 0;
@@ -12,6 +12,7 @@
   }
   // The inner wrapper provides the bottom rule
   .nav-inner-wrapper {
+    // background-color: yellow;
     padding-bottom: 40px;
     border-bottom: 20px solid black;
   }
@@ -32,9 +33,16 @@
     text-align: center;
   }
   li a:hover {
-    color: #ff0000;
+    color: $link-hover;
   }
   li.nav-name {
     padding-right: 50px;
   }
+  .nav-item {
+    color: $theme-faded;
+  }
+  .nav-current {
+    color: #000;
+  }
+
 }
