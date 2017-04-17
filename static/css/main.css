@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
 @font-face {
   font-family: 'SansRoman-Regular';
   src: url("/fonts/sansroman-regular-webfont.eot");
@@ -31,6 +35,43 @@
 .theme-article {
   background-color: #ff1538; }
 
+/* Horizontal margins
+----------------------------------------------------------------------------- */
+/* Vertical margins -- normal
+----------------------------------------------------------------------------- */
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px; }
+  @media screen and (min-width: 650px) {
+    .content {
+      padding-left: 24px;
+      padding-right: 24px; } }
+  @media screen and (min-width: 900px) {
+    .content {
+      padding-left: 27px;
+      padding-right: 27px; } }
+  @media screen and (min-width: 1150px) {
+    .content {
+      padding-left: 32px;
+      padding-right: 32px; } }
+  @media screen and (min-width: 1500px) {
+    .content {
+      padding-left: 38px;
+      padding-right: 38px; } }
+  @media screen and (min-width: 650px) {
+    .content {
+      padding-top: 120px; } }
+  @media screen and (min-width: 900px) {
+    .content {
+      padding-top: 135px; } }
+  @media screen and (min-width: 1150px) {
+    .content {
+      padding-top: 160px; } }
+  @media screen and (min-width: 1500px) {
+    .content {
+      padding-top: 190px; } }
+
 /* Font stack mixins
 (so I don't have to keep typing this shit)
 ----------------------------------------------------------------------------- */
@@ -49,19 +90,79 @@ body {
   font-variant-ligatures: common-ligatures; }
   @media screen and (min-width: 650px) {
     body {
-      font-size: 17px; } }
+      font-size: 16px; } }
   @media screen and (min-width: 900px) {
     body {
-      font-size: 18px; } }
+      font-size: 17px; } }
   @media screen and (min-width: 1150px) {
     body {
-      font-size: 20px; } }
+      font-size: 18px; } }
   @media screen and (min-width: 1500px) {
     body {
-      font-size: 23px; } }
+      font-size: 20px; } }
 
 h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-weight: normal;
   font-size: 1em; }
+
+.navigation {
+  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  overflow: hidden;
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  top: 0; }
+  @media screen and (min-width: 650px) {
+    .navigation {
+      padding-top: 24px; } }
+  @media screen and (min-width: 900px) {
+    .navigation {
+      padding-top: 27px; } }
+  @media screen and (min-width: 1150px) {
+    .navigation {
+      padding-top: 32px; } }
+  @media screen and (min-width: 1500px) {
+    .navigation {
+      padding-top: 38px; } }
+  .navigation .nav-wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+    @media screen and (min-width: 650px) {
+      .navigation .nav-wrapper {
+        padding-left: 24px;
+        padding-right: 24px; } }
+    @media screen and (min-width: 900px) {
+      .navigation .nav-wrapper {
+        padding-left: 27px;
+        padding-right: 27px; } }
+    @media screen and (min-width: 1150px) {
+      .navigation .nav-wrapper {
+        padding-left: 32px;
+        padding-right: 32px; } }
+    @media screen and (min-width: 1500px) {
+      .navigation .nav-wrapper {
+        padding-left: 38px;
+        padding-right: 38px; } }
+  .navigation .nav-inner-wrapper {
+    padding-bottom: 40px;
+    border-bottom: 20px solid black; }
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .navigation li {
+    list-style: inline;
+    float: left;
+    padding-right: 15px;
+    display: block; }
+  .navigation li a {
+    color: #000;
+    text-decoration: none;
+    text-align: center; }
+  .navigation li a:hover {
+    color: #ff0000; }
+  .navigation li.nav-name {
+    padding-right: 50px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+.navigation {
+  @include romansque;
+  @include margin-vert-top;
+  overflow: hidden;
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  // The outer wrapper provides the margins
+  .nav-wrapper {
+    @include margins-horiz;
+  }
+  // The inner wrapper provides the bottom rule
+  .nav-inner-wrapper {
+    padding-bottom: 40px;
+    border-bottom: 20px solid black;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: inline;
+    float: left;
+    padding-right: 15px;
+    display: block;
+  }
+  li a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+  }
+  li a:hover {
+    color: #ff0000;
+  }
+  li.nav-name {
+    padding-right: 50px;
+  }
+}

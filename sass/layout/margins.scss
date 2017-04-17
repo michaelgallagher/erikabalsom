@@ -1,0 +1,105 @@
+// Margin variables
+$margin-tiny:   20px;
+$margin-small:  24px;
+$margin-medium: 27px;
+$margin-large:  32px;
+$margin-huge:   38px;
+
+
+
+/* Horizontal margins
+----------------------------------------------------------------------------- */
+
+// Left and right margins -- the normal thing
+@mixin margins-horiz {
+	padding-left: $margin-tiny; padding-right: $margin-tiny;
+	@include breakpoint(small)  {padding-left: $margin-small;  padding-right: $margin-small}
+	@include breakpoint(medium) {padding-left: $margin-medium; padding-right: $margin-medium}
+	@include breakpoint(large)  {padding-left: $margin-large;  padding-right: $margin-large}
+	@include breakpoint(huge)   {padding-left: $margin-huge;   padding-right: $margin-huge}
+}
+// Single margins
+@mixin margin-horiz-left {
+	padding-left: $margin-tiny;
+	@include breakpoint(small)  {padding-left: $margin-small;}
+	@include breakpoint(medium) {padding-left: $margin-medium;}
+	@include breakpoint(large)  {padding-left: $margin-large;}
+	@include breakpoint(huge)   {padding-left: $margin-huge;}
+}
+@mixin margin-horiz-right {
+	padding-right: $margin-tiny;
+	@include breakpoint(small)  {padding-right: $margin-small;}
+	@include breakpoint(medium) {padding-right: $margin-medium;}
+	@include breakpoint(large)  {padding-right: $margin-large;}
+	@include breakpoint(huge)   {padding-right: $margin-huge;}
+}
+
+// Negative margins, left and right
+@mixin margins-horiz-negative {
+	margin-left: -$margin-tiny; margin-right: -$margin-tiny;
+	@include breakpoint(small)  {margin-left: -$margin-small;  margin-right: -$margin-small;}
+	@include breakpoint(medium) {margin-left: -$margin-medium; margin-right: -$margin-medium;}
+	@include breakpoint(large)  {margin-left: -$margin-large;  margin-right: -$margin-large;}
+	@include breakpoint(huge)   {margin-left: -$margin-huge;   margin-right: -$margin-huge;}
+}
+// Useful for pulling just one side to the browser edge
+@mixin margin-horiz-negative-left {
+	margin-left: -$margin-tiny;
+	@include breakpoint(small)  {margin-left: -$margin-small;}
+	@include breakpoint(medium) {margin-left: -$margin-medium;}
+	@include breakpoint(large)  {margin-left: -$margin-large;}
+	@include breakpoint(huge)   {margin-left: -$margin-huge;}
+}
+@mixin margin-horiz-negative-right {
+	margin-right: -$margin-tiny;
+	@include breakpoint(small)  {margin-right: -$margin-small;}
+	@include breakpoint(medium) {margin-right: -$margin-medium;}
+	@include breakpoint(large)  {margin-right: -$margin-large;}
+	@include breakpoint(huge)   {margin-right: -$margin-huge;}
+}
+
+
+
+/* Vertical margins -- normal
+----------------------------------------------------------------------------- */
+
+@mixin margins-vert {
+	padding-top: $margin-tiny; padding-bottom: $margin-tiny;
+	@include breakpoint(small)  {padding-top: $margin-small;  padding-bottom: $margin-small;}
+	@include breakpoint(medium) {padding-top: $margin-medium; padding-bottom: $margin-medium;}
+	@include breakpoint(large)  {padding-top: $margin-large;  padding-bottom: $margin-large;}
+	@include breakpoint(huge)   {padding-top: $margin-huge;   padding-bottom: $margin-huge;}
+}
+
+@mixin margin-vert-top {
+	padding-top: $margin-tiny;
+	@include breakpoint(small)  {padding-top: $margin-small;}
+	@include breakpoint(medium) {padding-top: $margin-medium;}
+	@include breakpoint(large)  {padding-top: $margin-large;}
+	@include breakpoint(huge)   {padding-top: $margin-huge;}
+}
+
+@mixin margin-vert-bottom {
+	padding-bottom: $margin-tiny;
+	@include breakpoint(small)  {padding-bottom: $margin-small;}
+	@include breakpoint(medium) {padding-bottom: $margin-medium;}
+	@include breakpoint(large)  {padding-bottom: $margin-large;}
+	@include breakpoint(huge)   {padding-bottom: $margin-huge;}
+}
+
+// Margin for above the page's title
+@mixin margin-vert-top-lead {
+	padding-top: $margin-tiny*5;
+	@include breakpoint(small)  {padding-top: $margin-small*5;}
+	@include breakpoint(medium) {padding-top: $margin-medium*5;}
+	@include breakpoint(large)  {padding-top: $margin-large*5;}
+	@include breakpoint(huge)   {padding-top: $margin-huge*5;}
+}
+
+@mixin margin-vert-color {
+	padding-top: $margin-tiny; margin-bottom: $margin-tiny;
+	@include breakpoint(small)  {padding-top: $margin-small;  margin-bottom: $margin-small;}
+	@include breakpoint(medium) {padding-top: $margin-medium; margin-bottom: $margin-medium;}
+	@include breakpoint(large)  {padding-top: $margin-large;  margin-bottom: $margin-large;}
+	@include breakpoint(huge)   {padding-top: $margin-huge;   margin-bottom: $margin-huge;}
+}
