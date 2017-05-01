@@ -2,7 +2,7 @@
   @include margins-horiz;
   position: absolute;
   margin-top: $footer-height;
-  padding-top: 14px;
+  padding-top: 15px;
   color: $theme-faded;
   ul {
     list-style-type: none;
@@ -41,4 +41,5 @@ a.anchor {
   color: $theme-faded;
 }
 
-.excerpted {padding-left: 1.25em;}
+.excerpted-in {padding-left: 1.25em;}
+.excerpted {padding-left: 2.5em;}

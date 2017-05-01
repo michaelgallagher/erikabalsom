@@ -233,7 +233,7 @@ To do:
   padding-right: 20px;
   position: absolute;
   margin-top: 92px;
-  padding-top: 14px;
+  padding-top: 15px;
   color: #aaa; }
   @media screen and (min-width: 650px) {
     .go-to {
@@ -284,7 +284,10 @@ a.anchor {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   color: #aaa; }
 
-.excerpted {
+.excerpted-in {
   padding-left: 1.25em; }
+
+.excerpted {
+  padding-left: 2.5em; }
 
 /*# sourceMappingURL=main.css.map */
