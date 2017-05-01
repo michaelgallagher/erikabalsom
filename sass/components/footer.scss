@@ -3,7 +3,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 94px;
+  height: $footer-height;
   /*
     this needs to be set in PX to match the nav height
     so there will need to be breakpoint sizes here

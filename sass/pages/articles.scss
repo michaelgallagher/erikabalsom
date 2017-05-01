@@ -1,0 +1,17 @@
+.article {
+  margin-top: 2em;
+}
+
+.further {
+  @include romansque;
+  // font-size: 80%;
+  color: $theme-faded;
+}
+
+.excerpted {
+  padding-left: 1.25em;
+}
+
+.excerpted-in {
+  // color: $theme-faded;
+}

@@ -7,6 +7,10 @@ html {
   background-color: $theme-background;
 }
 
+.content {
+  margin-bottom: $footer-height*2;
+}
+
 /*
 To do:
 - set colours for each page, this includes the thick rule, etc.

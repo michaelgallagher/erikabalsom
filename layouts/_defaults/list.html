@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+<body class="list">
+
+  {{ partial "nav.html" . }}
+
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+
+      {{ partial "aside.html" . }}
+
+      {{ range first 10 .Data.Pages }}
+        <article>
+          <header>
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+          </header>
+          {{ .Summary }}
+        </article>
+      {{ end }}
+
+  {{ partial "pagination.html" .Paginator }}
+
+{{ partial "footer.html" . }}
