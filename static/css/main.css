@@ -86,7 +86,7 @@ html, body {
 body {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-size: 13px;
-  line-height: 1.7;
+  line-height: 1.8;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures; }
   @media screen and (min-width: 650px) {
@@ -107,9 +107,8 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-size: 1em; }
 
 h1 {
-  font-family: 'SansRoman-Regular', Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  letter-spacing: 0.1em;
+  font-size: 1.4em;
+  letter-spacing: 0.07em;
   padding-top: 3em;
   text-transform: uppercase;
   color: #ff3c4f; }
@@ -231,9 +230,10 @@ To do:
 .go-to {
   padding-left: 20px;
   padding-right: 20px;
+  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   position: absolute;
   margin-top: 92px;
-  padding-top: 15px;
+  padding-top: 17px;
   color: #aaa; }
   @media screen and (min-width: 650px) {
     .go-to {
@@ -267,6 +267,10 @@ To do:
   .go-to li a:hover {
     color: #ff3c4f; }
 
+.go-to-heading {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-style: italic; }
+
 /*
 this lets us set a custom position for the anchors
 to accomodate the fixed page header
@@ -278,7 +282,7 @@ a.anchor {
   visibility: hidden; }
 
 .article {
-  margin-top: 2em; }
+  margin-top: 3em; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
@@ -289,5 +293,11 @@ a.anchor {
 
 .excerpted {
   padding-left: 2.5em; }
+
+.about p {
+  font-size: 2em;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  max-width: 800px; }
 
 /*# sourceMappingURL=main.css.map */

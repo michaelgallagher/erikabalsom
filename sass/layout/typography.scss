@@ -43,7 +43,7 @@ body {
   //@include sans-roman;
   @include baskerville;
   @include body-font;
-  line-height: 1.7;
+  line-height: 1.8;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures;
 }
@@ -54,9 +54,9 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 }
 
 h1 {
-	@include sans-roman;
-	font-size: 1.1em;
-	letter-spacing: 0.1em;
+	// @include sans-roman;
+	font-size: 1.4em;
+	letter-spacing: 0.07em;
 	padding-top: 3em;
 	text-transform: uppercase;
 	color: $link-hover;
