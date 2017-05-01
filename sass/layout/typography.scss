@@ -55,8 +55,11 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 
 h1 {
 	@include sans-roman;
-	font-size: 2em;
-	// color: $link-hover;
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	padding-top: 3em;
+	text-transform: uppercase;
+	color: $link-hover;
 }
 
 p {

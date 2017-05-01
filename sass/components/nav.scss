@@ -1,4 +1,5 @@
 .navigation {
+  z-index: 100;
   @include romansque;
   @include margin-vert-top;
   background-color: $theme-background;

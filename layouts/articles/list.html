@@ -5,6 +5,15 @@
   <!-- special version for homepage? -->
   {{ partial "nav.html" . }}
 
+  <div class="go-to">
+    <ul>
+      <li><i>Go to:</i></li>
+      <li><a href="#journal-articles">Journal Articles</a></li>
+      <li><a href="#book-chapters">Book Chapters</a></li>
+      <li><a href="#interviews">Interviews</a></li>
+    </ul>
+  </div>
+
   <div class="content">
     {{ .Content }}
   </div>

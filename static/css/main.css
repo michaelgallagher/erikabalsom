@@ -42,7 +42,8 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 120px; }
+  padding-top: 120px;
+  margin-bottom: 184px; }
   @media screen and (min-width: 650px) {
     .content {
       padding-left: 24px;
@@ -107,13 +108,18 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 
 h1 {
   font-family: 'SansRoman-Regular', Helvetica, Arial, sans-serif;
-  font-size: 2em; }
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  padding-top: 3em;
+  text-transform: uppercase;
+  color: #ff3c4f; }
 
 p {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0; }
 
 .navigation {
+  z-index: 100;
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   padding-top: 20px;
   background-color: #fbfbfb;
@@ -182,7 +188,7 @@ p {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 94px;
+  height: 92px;
   /*
     this needs to be set in PX to match the nav height
     so there will need to be breakpoint sizes here
@@ -218,13 +224,59 @@ that are not covered elswhere
 html {
   background-color: #fbfbfb; }
 
-.content {
-  margin-bottom: 188px; }
-
 /*
 To do:
 - set colours for each page, this includes the thick rule, etc.
 */
+.go-to {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  margin-top: 92px;
+  padding-top: 14px;
+  color: #aaa; }
+  @media screen and (min-width: 650px) {
+    .go-to {
+      padding-left: 24px;
+      padding-right: 24px; } }
+  @media screen and (min-width: 900px) {
+    .go-to {
+      padding-left: 27px;
+      padding-right: 27px; } }
+  @media screen and (min-width: 1150px) {
+    .go-to {
+      padding-left: 32px;
+      padding-right: 32px; } }
+  @media screen and (min-width: 1500px) {
+    .go-to {
+      padding-left: 38px;
+      padding-right: 38px; } }
+  .go-to ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .go-to li {
+    list-style: inline;
+    float: left;
+    padding-right: 15px;
+    display: block; }
+  .go-to li a {
+    color: #aaa;
+    text-decoration: none;
+    text-align: center; }
+  .go-to li a:hover {
+    color: #ff3c4f; }
+
+/*
+this lets us set a custom position for the anchors
+to accomodate the fixed page header
+*/
+a.anchor {
+  display: block;
+  position: relative;
+  top: -170px;
+  visibility: hidden; }
+
 .article {
   margin-top: 2em; }
 
