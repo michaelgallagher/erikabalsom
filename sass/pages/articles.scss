@@ -11,10 +11,14 @@
     padding: 0;
   }
   li {
-    list-style: inline;
-    float: left;
     padding-right: 15px;
     display: block;
+    // changes the list type to be a row instead of a stack
+    // on screens larger than phone-sized.
+    @include breakpoint(small)  {
+      list-style: inline;
+      float: left;;
+    }
   }
   li a {
     color: $theme-faded;

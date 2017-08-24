@@ -44,7 +44,7 @@ html, body {
   padding-right: 20px;
   padding-top: 120px;
   margin-bottom: 184px; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     .content {
       padding-left: 24px;
       padding-right: 24px; } }
@@ -60,7 +60,7 @@ html, body {
     .content {
       padding-left: 38px;
       padding-right: 38px; } }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     .content {
       padding-top: 144px; } }
   @media screen and (min-width: 900px) {
@@ -89,7 +89,7 @@ body {
   line-height: 1.8;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     body {
       font-size: 14px; } }
   @media screen and (min-width: 900px) {
@@ -126,7 +126,7 @@ p {
   position: fixed;
   width: 100%;
   top: 0; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     .navigation {
       padding-top: 24px; } }
   @media screen and (min-width: 900px) {
@@ -141,7 +141,7 @@ p {
   .navigation .nav-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
-    @media screen and (min-width: 650px) {
+    @media screen and (min-width: 670px) {
       .navigation .nav-wrapper {
         padding-left: 24px;
         padding-right: 24px; } }
@@ -196,7 +196,7 @@ p {
 .sticky-footer-inner-1 {
   padding-left: 20px;
   padding-right: 20px; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     .sticky-footer-inner-1 {
       padding-left: 24px;
       padding-right: 24px; } }
@@ -235,7 +235,7 @@ To do:
   margin-top: 92px;
   padding-top: 17px;
   color: #aaa; }
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 670px) {
     .go-to {
       padding-left: 24px;
       padding-right: 24px; } }
@@ -256,10 +256,12 @@ To do:
     margin: 0;
     padding: 0; }
   .go-to li {
-    list-style: inline;
-    float: left;
     padding-right: 15px;
     display: block; }
+    @media screen and (min-width: 670px) {
+      .go-to li {
+        list-style: inline;
+        float: left; } }
   .go-to li a {
     color: #aaa;
     text-decoration: none;
