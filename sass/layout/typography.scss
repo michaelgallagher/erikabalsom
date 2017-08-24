@@ -54,12 +54,16 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 }
 
 h1 {
-	// @include sans-roman;
 	font-size: 1.4em;
 	letter-spacing: 0.07em;
-	padding-top: 3em;
 	text-transform: uppercase;
 	color: $accent-color-primary;
+	margin: 0;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	&:first-of-type {
+		padding-top: 0;
+	}
 }
 
 p {

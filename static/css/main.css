@@ -45,7 +45,7 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 120px;
+  padding-top: 140px;
   margin-bottom: 184px; }
   @media screen and (min-width: 670px) {
     .content {
@@ -65,16 +65,16 @@ html, body {
       padding-right: 38px; } }
   @media screen and (min-width: 670px) {
     .content {
-      padding-top: 144px; } }
+      padding-top: 168px; } }
   @media screen and (min-width: 900px) {
     .content {
-      padding-top: 162px; } }
+      padding-top: 189px; } }
   @media screen and (min-width: 1150px) {
     .content {
-      padding-top: 192px; } }
+      padding-top: 224px; } }
   @media screen and (min-width: 1500px) {
     .content {
-      padding-top: 228px; } }
+      padding-top: 266px; } }
 
 /* Font stack mixins
 (so I don't have to keep typing this shit)
@@ -112,9 +112,13 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 h1 {
   font-size: 1.4em;
   letter-spacing: 0.07em;
-  padding-top: 3em;
   text-transform: uppercase;
-  color: #ff3c4f; }
+  color: #ff3c4f;
+  margin: 0;
+  padding-bottom: 2em;
+  padding-top: 2em; }
+  h1:first-of-type {
+    padding-top: 0; }
 
 p {
   -webkit-margin-before: 0;
@@ -290,7 +294,7 @@ a.anchor {
   visibility: hidden; }
 
 .article {
-  margin-top: 3em; }
+  margin-bottom: 3em; }
   .article a {
     color: #aaa;
     text-decoration: underline; }
