@@ -1,7 +1,7 @@
 $theme-background: #fbfbfb;
 $theme-faded: #aaa;
-$link-hover: #ff3c4f;
+$accent-color-primary: #ff3c4f;
 
-.theme-article {
-  background-color: #ff1538;
-}
+.theme-article {background-color: #ff1538;}
+
+.red {color: $accent-color-primary;}

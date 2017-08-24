@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<body class="articles">
+
+  {{ partial "nav.html" . }}
+
+  <div class="go-to">
+    <ul>
+      <li class="go-to-heading">Go to:</li>
+      <li><a href="#talks-upcoming">Upcoming</a></li>
+      <li><a href="#talks-past">Past</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+{{ partial "footer.html" . }}

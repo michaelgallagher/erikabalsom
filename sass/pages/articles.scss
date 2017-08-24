@@ -25,7 +25,7 @@
     text-decoration: none;
     text-align: center;
   }
-  li a:hover {color: $link-hover;}
+  li a:hover {color: $accent-color-primary;}
 }
 .go-to-heading {@include baskerville; font-style: italic;}
 
@@ -40,12 +40,29 @@ a.anchor {
     visibility: hidden;
 }
 
-.article {margin-top: 3em;}
+.article {
+  margin-top: 3em;
+  a {
+    color: $theme-faded;
+    text-decoration: underline;
+    &:hover {
+      color: $accent-color-primary;
+    }
+  }
+}
 
 .further {
   @include romansque;
   color: $theme-faded;
 }
 
-.excerpted-in {padding-left: 1.25em;}
-.excerpted {padding-left: 2.5em;}
+.call-out {
+  color: $accent-color-primary;
+}
+.contributors,
+.contributor-list {
+  max-width: 720px;
+}
+
+.excerpted-in, .contributors {padding-left: 1.25em;}
+.excerpted, .contributor-list {padding-left: 2.5em;}

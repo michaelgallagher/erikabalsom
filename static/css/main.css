@@ -35,6 +35,9 @@ html, body {
 .theme-article {
   background-color: #ff1538; }
 
+.red {
+  color: #ff3c4f; }
+
 /* Horizontal margins
 ----------------------------------------------------------------------------- */
 /* Vertical margins -- normal
@@ -116,6 +119,9 @@ h1 {
 p {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0; }
+
+.embiggen {
+  font-size: 1.5em; }
 
 .navigation {
   z-index: 100;
@@ -285,15 +291,27 @@ a.anchor {
 
 .article {
   margin-top: 3em; }
+  .article a {
+    color: #aaa;
+    text-decoration: underline; }
+    .article a:hover {
+      color: #ff3c4f; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   color: #aaa; }
 
-.excerpted-in {
+.call-out {
+  color: #ff3c4f; }
+
+.contributors,
+.contributor-list {
+  max-width: 720px; }
+
+.excerpted-in, .contributors {
   padding-left: 1.25em; }
 
-.excerpted {
+.excerpted, .contributor-list {
   padding-left: 2.5em; }
 
 .about p {

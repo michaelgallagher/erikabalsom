@@ -59,10 +59,12 @@ h1 {
 	letter-spacing: 0.07em;
 	padding-top: 3em;
 	text-transform: uppercase;
-	color: $link-hover;
+	color: $accent-color-primary;
 }
 
 p {
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 }
+
+.embiggen {font-size: 1.5em;}
