@@ -5,7 +5,8 @@ Built using Hugo.
 ## To do:
 - Nav: for smaller screens – should roll-up, have a + button, and open/close on-click.
 - Maybe refactor the CSS so that the inline UL stuff has one parent, instead of repeating some of it in the nav and go-to sections
-- Breakpoint adjustments.
+- Breakpoint adjustments:
+  - "go to" links
 
 
 ## Done:

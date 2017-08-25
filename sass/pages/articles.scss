@@ -1,10 +1,17 @@
 .go-to {
   @include margins-horiz;
   @include romansque;
-  position: absolute;
-  margin-top: $footer-height;
-  padding-top: 17px;
+  @include go-to-top-margin;
+  padding-top: 12px;
+    @include breakpoint(small) {padding-top: 12px;}
+    @include breakpoint(medium) {padding-top: 14px;}
+    @include breakpoint(large)  {padding-top: 17px;}
+    @include breakpoint(huge)   {padding-top: 18px;}
   color: $theme-faded;
+  position: absolute;
+  visibility: hidden;
+    @include breakpoint(small) {visibility: visible;}
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -27,7 +34,10 @@
   }
   li a:hover {color: $accent-color-primary;}
 }
-.go-to-heading {@include baskerville; font-style: italic;}
+.go-to-heading {
+  @include baskerville;
+  font-style: italic;
+}
 
 /*
 this lets us set a custom position for the anchors

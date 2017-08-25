@@ -1,5 +1,5 @@
 .content {
   @include margins-horiz;
   @include margin-vert-top-lead;
-  margin-bottom: $footer-height*2;
+  @include margin-vert-bottom-final;
 }

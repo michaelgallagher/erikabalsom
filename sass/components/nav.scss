@@ -7,15 +7,22 @@
   position: fixed;
   width: 100%;
   top: 0;
+
   // The outer wrapper provides the margins
   .nav-wrapper {
     @include margins-horiz;
   }
+
   // The inner wrapper provides the bottom rule
   .nav-inner-wrapper {
-    padding-bottom: 40px;
-    border-bottom: 20px solid black;
+    padding-bottom: 30px;
+    border-bottom: 15px solid black;
+      @include breakpoint(small)  {padding-bottom: 33px;  border-bottom: 17px solid black;}
+    	@include breakpoint(medium) {padding-bottom: 36px;  border-bottom: 18px solid black;}
+    	@include breakpoint(large)  {padding-bottom: 40px;  border-bottom: 20px solid black;}
+    	@include breakpoint(huge)   {padding-bottom: 42px;  border-bottom: 20px solid black;}
   }
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -38,11 +45,8 @@
   li.nav-name {
     padding-right: 50px;
   }
-  .nav-item {
-    color: $theme-faded;
-  }
-  .nav-current {
-    color: #000;
-  }
+
+  .nav-item {color: $theme-faded;}
+  .nav-current {color: #000;}
 
 }

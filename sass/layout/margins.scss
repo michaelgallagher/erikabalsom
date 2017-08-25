@@ -5,19 +5,46 @@ $margin-medium: 27px;
 $margin-large:  32px;
 $margin-huge:   38px;
 
-// Footer height variables
-$footer-height: 92px;
-
+// Footer height
+$footer-height-tiny:   65px;
+$footer-height-small:  74px;
+$footer-height-medium: 81px;
+$footer-height-large:  92px;
+$footer-height-huge:   100px;
+// this all seems like overkill
+// but I can't figure out how to use the footer heights
+// in all of these places without doing this
+@mixin footer-height {
+	height: $footer-height-tiny;
+	@include breakpoint(small)  {height: $footer-height-small;}
+	@include breakpoint(medium) {height: $footer-height-medium;}
+	@include breakpoint(large)  {height: $footer-height-large;}
+	@include breakpoint(huge)   {height: $footer-height-huge;}
+}
+@mixin margin-vert-bottom-final {
+	margin-bottom: $footer-height-tiny*2;
+	@include breakpoint(small)  {margin-bottom: $footer-height-small*2;}
+	@include breakpoint(medium) {margin-bottom: $footer-height-medium*2;}
+	@include breakpoint(large)  {margin-bottom: $footer-height-large*2;}
+	@include breakpoint(huge)   {margin-bottom: $footer-height-huge*2;}
+}
+@mixin go-to-top-margin {
+	margin-top: $footer-height-tiny;
+	@include breakpoint(small)  {margin-top: $footer-height-small;}
+	@include breakpoint(medium) {margin-top: $footer-height-medium;}
+	@include breakpoint(large)  {margin-top: $footer-height-large;}
+	@include breakpoint(huge)   {margin-top: $footer-height-huge;}
+}
 
 /* Horizontal margins
 ----------------------------------------------------------------------------- */
 // Left and right margins -- the normal thing
 @mixin margins-horiz {
 	padding-left: $margin-tiny; padding-right: $margin-tiny;
-	@include breakpoint(small)  {padding-left: $margin-small;  padding-right: $margin-small}
-	@include breakpoint(medium) {padding-left: $margin-medium; padding-right: $margin-medium}
-	@include breakpoint(large)  {padding-left: $margin-large;  padding-right: $margin-large}
-	@include breakpoint(huge)   {padding-left: $margin-huge;   padding-right: $margin-huge}
+	@include breakpoint(small)  {padding-left: $margin-small;  padding-right: $margin-small;}
+	@include breakpoint(medium) {padding-left: $margin-medium; padding-right: $margin-medium;}
+	@include breakpoint(large)  {padding-left: $margin-large;  padding-right: $margin-large;}
+	@include breakpoint(huge)   {padding-left: $margin-huge;   padding-right: $margin-huge;}
 }
 // Single margins
 @mixin margin-horiz-left {

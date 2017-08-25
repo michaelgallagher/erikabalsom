@@ -46,7 +46,7 @@ html, body {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 140px;
-  margin-bottom: 184px; }
+  margin-bottom: 130px; }
   @media screen and (min-width: 670px) {
     .content {
       padding-left: 24px;
@@ -75,6 +75,18 @@ html, body {
   @media screen and (min-width: 1500px) {
     .content {
       padding-top: 266px; } }
+  @media screen and (min-width: 670px) {
+    .content {
+      margin-bottom: 148px; } }
+  @media screen and (min-width: 900px) {
+    .content {
+      margin-bottom: 162px; } }
+  @media screen and (min-width: 1150px) {
+    .content {
+      margin-bottom: 184px; } }
+  @media screen and (min-width: 1500px) {
+    .content {
+      margin-bottom: 200px; } }
 
 /* Font stack mixins
 (so I don't have to keep typing this shit)
@@ -168,8 +180,24 @@ p {
         padding-left: 38px;
         padding-right: 38px; } }
   .navigation .nav-inner-wrapper {
-    padding-bottom: 40px;
-    border-bottom: 20px solid black; }
+    padding-bottom: 30px;
+    border-bottom: 15px solid black; }
+    @media screen and (min-width: 670px) {
+      .navigation .nav-inner-wrapper {
+        padding-bottom: 33px;
+        border-bottom: 17px solid black; } }
+    @media screen and (min-width: 900px) {
+      .navigation .nav-inner-wrapper {
+        padding-bottom: 36px;
+        border-bottom: 18px solid black; } }
+    @media screen and (min-width: 1150px) {
+      .navigation .nav-inner-wrapper {
+        padding-bottom: 40px;
+        border-bottom: 20px solid black; } }
+    @media screen and (min-width: 1500px) {
+      .navigation .nav-inner-wrapper {
+        padding-bottom: 42px;
+        border-bottom: 20px solid black; } }
   .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -192,16 +220,26 @@ p {
   .navigation .nav-current {
     color: #000; }
 
+/* The footer styles
+----------------------------------------------------------------------------- */
 .sticky-footer {
+  height: 65px;
   background-color: #fbfbfb;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 92px;
-  /*
-    this needs to be set in PX to match the nav height
-    so there will need to be breakpoint sizes here
-  */ }
+  width: 100%; }
+  @media screen and (min-width: 670px) {
+    .sticky-footer {
+      height: 74px; } }
+  @media screen and (min-width: 900px) {
+    .sticky-footer {
+      height: 81px; } }
+  @media screen and (min-width: 1150px) {
+    .sticky-footer {
+      height: 92px; } }
+  @media screen and (min-width: 1500px) {
+    .sticky-footer {
+      height: 100px; } }
 
 .sticky-footer-inner-1 {
   padding-left: 20px;
@@ -241,10 +279,11 @@ To do:
   padding-left: 20px;
   padding-right: 20px;
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  margin-top: 65px;
+  padding-top: 12px;
+  color: #aaa;
   position: absolute;
-  margin-top: 92px;
-  padding-top: 17px;
-  color: #aaa; }
+  visibility: hidden; }
   @media screen and (min-width: 670px) {
     .go-to {
       padding-left: 24px;
@@ -261,6 +300,33 @@ To do:
     .go-to {
       padding-left: 38px;
       padding-right: 38px; } }
+  @media screen and (min-width: 670px) {
+    .go-to {
+      margin-top: 74px; } }
+  @media screen and (min-width: 900px) {
+    .go-to {
+      margin-top: 81px; } }
+  @media screen and (min-width: 1150px) {
+    .go-to {
+      margin-top: 92px; } }
+  @media screen and (min-width: 1500px) {
+    .go-to {
+      margin-top: 100px; } }
+  @media screen and (min-width: 670px) {
+    .go-to {
+      padding-top: 12px; } }
+  @media screen and (min-width: 900px) {
+    .go-to {
+      padding-top: 14px; } }
+  @media screen and (min-width: 1150px) {
+    .go-to {
+      padding-top: 17px; } }
+  @media screen and (min-width: 1500px) {
+    .go-to {
+      padding-top: 18px; } }
+  @media screen and (min-width: 670px) {
+    .go-to {
+      visibility: visible; } }
   .go-to ul {
     list-style-type: none;
     margin: 0;
