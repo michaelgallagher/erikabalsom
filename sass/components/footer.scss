@@ -6,6 +6,8 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  visibility: hidden;
+    @include breakpoint(small)  {visibility: visible;}
 }
 .sticky-footer-inner-1 {
   @include margins-horiz;

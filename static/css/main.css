@@ -220,6 +220,38 @@ p {
   .navigation .nav-current {
     color: #000; }
 
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  visibility: hidden; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+  .nav-toggle a:link, .nav-toggle a:visited {
+    color: #000;
+    text-decoration: none;
+    background-color: green; }
+    .nav-toggle a:link:hover, .nav-toggle a:link:active, .nav-toggle a:visited:hover, .nav-toggle a:visited:active {
+      color: #ff3c4f;
+      text-decoration: none; }
+
+@media screen and (min-width: 40em) {
+  .nav-toggle {
+    display: none; } }
 /* The footer styles
 ----------------------------------------------------------------------------- */
 .sticky-footer {
@@ -227,7 +259,8 @@ p {
   background-color: #fbfbfb;
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  visibility: hidden; }
   @media screen and (min-width: 670px) {
     .sticky-footer {
       height: 74px; } }
@@ -240,6 +273,9 @@ p {
   @media screen and (min-width: 1500px) {
     .sticky-footer {
       height: 100px; } }
+  @media screen and (min-width: 670px) {
+    .sticky-footer {
+      visibility: visible; } }
 
 .sticky-footer-inner-1 {
   padding-left: 20px;
