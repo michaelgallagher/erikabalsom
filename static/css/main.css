@@ -290,7 +290,7 @@ to accomodate the fixed page header
 a.anchor {
   display: block;
   position: relative;
-  top: -170px;
+  top: -230px;
   visibility: hidden; }
 
 .article {
