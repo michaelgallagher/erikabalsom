@@ -23,7 +23,7 @@
     // on screens larger than phone-sized.
     @include breakpoint(small)  {
       list-style: inline;
-      float: left;;
+      float: left;
     }
   }
   li a {

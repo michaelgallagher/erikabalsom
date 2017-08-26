@@ -7,7 +7,7 @@ Built using Hugo.
 - Maybe refactor the CSS so that the inline UL stuff has one parent, instead of repeating some of it in the nav and go-to sections
 - Breakpoint adjustments:
   - "go to" links
-
+- Tiny screens: add a breakpoint for screens under 360 – type all gets a bit smaller, especially the large "about" text
 
 ## Done:
 - On smaller screens the "go to" module (top of Articles page) needs to become a vertical list.

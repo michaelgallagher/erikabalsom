@@ -219,38 +219,21 @@ p {
     color: #aaa; }
   .navigation .nav-current {
     color: #000; }
+  @media screen and (min-width: 670px) {
+    .navigation .tiny-title {
+      display: none; } }
+  .navigation .menu-button {
+    float: right;
+    padding-right: 0; }
+    @media screen and (min-width: 670px) {
+      .navigation .menu-button {
+        display: none; } }
+  .navigation .hide-small {
+    display: none; }
+    @media screen and (min-width: 670px) {
+      .navigation .hide-small {
+        display: block; } }
 
-/*! responsive-nav.js 1.0.39 by @viljamis */
-.js .nav-collapse {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1; }
-
-.nav-collapse.opened {
-  max-height: 9999px; }
-
-.nav-toggle {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none; }
-  .nav-toggle a:link, .nav-toggle a:visited {
-    color: #000;
-    text-decoration: none;
-    background-color: green; }
-    .nav-toggle a:link:hover, .nav-toggle a:link:active, .nav-toggle a:visited:hover, .nav-toggle a:visited:active {
-      color: #ff3c4f;
-      text-decoration: none; }
-
-@media screen and (min-width: 40em) {
-  .nav-toggle {
-    display: none; } }
 /* The footer styles
 ----------------------------------------------------------------------------- */
 .sticky-footer {
