@@ -1,10 +1,25 @@
-<!-- 1 level indented, since it is inside the <body> -->
+
+<!-- Pushy Menu -->
+<nav class="pushy pushy-right">
+  <div class="pushy-content">
+    <ul>
+      <li><a class="pushy-link" href="/books/">Books</a></li>
+      <li><a class="pushy-link" href="/articles/">Articles</a></li>
+      <li><a class="pushy-link" href="/criticism/">Criticism</a></li>
+      <li><a class="pushy-link" href="/talks/">Talks</a></li>
+      <li><a class="pushy-link" href="/teaching/">Teaching</a></li>
+      <li><a class="pushy-link" href="/about/">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- The normal Menu -->
 <nav id="nav" class="navigation">
   <div class="nav-wrapper">
     <div class="nav-inner-wrapper">
       <ul>
         <li class="nav-item nav-current tiny-title">Erika Balsom: {{ .Title }}</li>
-        <li class="nav-item nav-current tiny-title menu-button">+</li>
+        <button class="nav-item nav-current tiny-title menu-button menu-btn">+</button>
         <li class="nav-name"><a class="nav-item nav-current hide-small" href="/">Erika Balsom</a></li>
         <li><a class="nav-item hide-small" href="/books/">Books</a></li>
         <li><a class="nav-item hide-small" href="/articles/">Articles</a></li>
