@@ -230,8 +230,7 @@ p {
   zoom: 1; }
 
 .nav-collapse.opened {
-  max-height: 9999px;
-  visibility: hidden; }
+  max-height: 9999px; }
 
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
