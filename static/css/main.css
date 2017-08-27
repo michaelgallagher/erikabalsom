@@ -234,6 +234,32 @@ p {
       .navigation .hide-small {
         display: block; } }
 
+button {
+  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  border: none;
+  padding: 0px;
+  text-align: center; }
+  @media screen and (min-width: 670px) {
+    button {
+      font-size: 14px; } }
+  @media screen and (min-width: 900px) {
+    button {
+      font-size: 14px; } }
+  @media screen and (min-width: 1150px) {
+    button {
+      font-size: 15px; } }
+  @media screen and (min-width: 1500px) {
+    button {
+      font-size: 16px; } }
+
+button.menu-button {
+  background-color: #fbfbfb; }
+
+button.close-button {
+  background-color: #ff3c4f;
+  float: right; }
+
 /* The footer styles
 ----------------------------------------------------------------------------- */
 .sticky-footer {

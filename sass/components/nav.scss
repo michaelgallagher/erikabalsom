@@ -49,7 +49,6 @@
   .nav-item {color: $theme-faded;}
   .nav-current {color: #000;}
 
-
   .tiny-title {
     @include breakpoint(small)  {display: none;}
   }
@@ -64,5 +63,20 @@
     @include breakpoint(small)  {display: block;}
   }
 
+}
 
+
+button {
+  @include romansque;
+  @include body-font;
+  border: none;
+  padding: 0px;
+  text-align: center;
+}
+button.menu-button {
+  background-color: $theme-background;
+}
+button.close-button {
+  background-color: $accent-color-primary;
+  float: right;
 }
