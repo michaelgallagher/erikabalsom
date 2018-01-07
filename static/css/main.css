@@ -620,10 +620,12 @@ a.anchor {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   color: #aaa; }
   .further a {
+    color: #aaa;
     text-decoration: none;
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px; }
     .further a:hover {
+      color: #ff3c4f;
       border-color: #ff3c4f;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
@@ -641,7 +643,12 @@ a.anchor {
   padding-left: 2.5em; }
 
 .criticism .content p {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-left: 0.4em;
+  text-indent: -0.4em; }
+
+.criticism .content i {
+  padding-right: 0.5em; }
 
 /*
 Add negative margin to accomodate the quotation mark
