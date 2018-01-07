@@ -3,4 +3,18 @@
   line-height: 1.45;
   letter-spacing: -0.01em;
   max-width: 800px;
+  margin-bottom: 0.5em;
+  @include breakpoint(huge) {
+    max-width: 880px;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+    &:hover {
+      color: $accent-color-primary;
+      border-bottom-color: $accent-color-primary;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+  }
 }
