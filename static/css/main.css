@@ -51,7 +51,7 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 200px;
+  padding-top: 120px;
   margin-bottom: 130px; }
   @media screen and (min-width: 670px) {
     .content {
@@ -71,7 +71,7 @@ html, body {
       padding-right: 38px; } }
   @media screen and (min-width: 670px) {
     .content {
-      padding-top: 192px; } }
+      padding-top: 168px; } }
   @media screen and (min-width: 900px) {
     .content {
       padding-top: 189px; } }
@@ -93,6 +93,21 @@ html, body {
   @media screen and (min-width: 1500px) {
     .content {
       margin-bottom: 200px; } }
+
+.articles .content {
+  padding-top: 203px; }
+  @media screen and (min-width: 670px) {
+    .articles .content {
+      padding-top: 168px; } }
+  @media screen and (min-width: 900px) {
+    .articles .content {
+      padding-top: 189px; } }
+  @media screen and (min-width: 1150px) {
+    .articles .content {
+      padding-top: 224px; } }
+  @media screen and (min-width: 1500px) {
+    .articles .content {
+      padding-top: 266px; } }
 
 /* Font stack mixins
 (so I don't have to keep typing this shit)
@@ -240,11 +255,19 @@ p {
       .navigation .hide-small {
         display: block; } }
 
+.pushy li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 16px 0 18px 0;
+  height: 19px; }
+  .pushy li:first-of-type {
+    margin-top: 105px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15); }
+
 button {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   font-size: 13px;
   border: none;
-  padding: 0px;
+  padding: 5px 0px 0px 0px;
   text-align: center; }
   @media screen and (min-width: 670px) {
     button {
@@ -265,6 +288,8 @@ button.menu-button {
 button.close-button {
   background-color: #ff3c4f;
   float: right; }
+  button.close-button:hover {
+    color: #fff; }
 
 /* The footer styles
 ----------------------------------------------------------------------------- */

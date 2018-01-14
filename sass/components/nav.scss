@@ -65,12 +65,24 @@
 
 }
 
+.pushy {
+  li {
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    padding: 16px 0 18px 0;
+    height: 19px;
+    &:first-of-type {
+      margin-top: 105px;
+      border-top: 1px solid rgba(0,0,0,0.15);
+    }
+  }
+}
+
 
 button {
   @include romansque;
   @include body-font;
   border: none;
-  padding: 0px;
+  padding: 5px 0px 0px 0px;
   text-align: center;
 }
 button.menu-button {
@@ -79,4 +91,7 @@ button.menu-button {
 button.close-button {
   background-color: $accent-color-primary;
   float: right;
+  &:hover {
+    color: #fff;
+  }
 }

@@ -3,3 +3,7 @@
   @include margin-vert-top-lead;
   @include margin-vert-bottom-final;
 }
+
+.articles .content {
+  @include margin-vert-top-lead-articles;
+}

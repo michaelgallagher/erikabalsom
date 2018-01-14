@@ -1,9 +1,10 @@
 
 <!-- Pushy Menu -->
 <nav class="pushy pushy-right">
+  <button class="tiny-title close-button menu-btn">Close Menu</button>
   <div class="pushy-content">
     <ul>
-      <button class="tiny-title close-button menu-btn">&#215;</button>
+      <li><a class="pushy-link" href="/">Home</a></li>
       <li><a class="pushy-link" href="/books/">Books</a></li>
       <li><a class="pushy-link" href="/articles/">Articles</a></li>
       <li><a class="pushy-link" href="/criticism/">Criticism</a></li>
@@ -20,8 +21,8 @@
     <div class="nav-inner-wrapper">
       <ul>
         <!-- For smaller screens -->
-        <li class="nav-item nav-current tiny-title">Erika Balsom: {{ .Title }}</li>
-        <button class="nav-item nav-current tiny-title menu-button menu-btn">+</button>
+        <li class="nav-item nav-current tiny-title">Erika Balsom{{if not .IsHome}}: {{ .Title }}{{end}}</li>
+        <button class="nav-item nav-current tiny-title menu-button menu-btn">Menu</button>
         <!-- For larger screens -->
         <li class="nav-name"><a class="nav-item nav-current hide-small" href="/">Erika Balsom</a></li>
         <li><a class="nav-item hide-small" href="/books/">Books</a></li>
