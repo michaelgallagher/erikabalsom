@@ -3,6 +3,7 @@ Built using Hugo.
 
 
 ## To do:
+- Examine the spacing of the Go To text versus the menu items (vertical alignment is off).
 - Spacing of links in the Go To menu (need more space)
 - Link styles for large text style.
 - About page: margin-bottom for the large text style

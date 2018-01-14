@@ -14,6 +14,7 @@ $footer-height-huge:   100px;
 // this all seems like overkill
 // but I can't figure out how to use the footer heights
 // in all of these places without doing this
+
 @mixin footer-height {
 	height: $footer-height-tiny;
 	@include breakpoint(small)  {height: $footer-height-small;}
@@ -87,8 +88,8 @@ $footer-height-huge:   100px;
 }
 // Margin for above the page's title
 @mixin margin-vert-top-lead {
-	padding-top: $margin-tiny*7;
-	@include breakpoint(small)  {padding-top: $margin-small*7;}
+	padding-top: $margin-tiny*12;
+	@include breakpoint(small)  {padding-top: $margin-small*8;}
 	@include breakpoint(medium) {padding-top: $margin-medium*7;}
 	@include breakpoint(large)  {padding-top: $margin-large*7;}
 	@include breakpoint(huge)   {padding-top: $margin-huge*7;}

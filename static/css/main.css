@@ -51,7 +51,7 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 140px;
+  padding-top: 240px;
   margin-bottom: 130px; }
   @media screen and (min-width: 670px) {
     .content {
@@ -71,7 +71,7 @@ html, body {
       padding-right: 38px; } }
   @media screen and (min-width: 670px) {
     .content {
-      padding-top: 168px; } }
+      padding-top: 192px; } }
   @media screen and (min-width: 900px) {
     .content {
       padding-top: 189px; } }
@@ -211,7 +211,7 @@ p {
   .navigation li {
     list-style: inline;
     float: left;
-    padding-right: 15px;
+    padding-right: 25px;
     display: block; }
   .navigation li a {
     color: #000;
@@ -531,8 +531,7 @@ To do:
   margin-top: 65px;
   padding-top: 12px;
   color: #aaa;
-  position: absolute;
-  visibility: hidden; }
+  position: absolute; }
   @media screen and (min-width: 670px) {
     .go-to {
       padding-left: 24px;
@@ -573,15 +572,12 @@ To do:
   @media screen and (min-width: 1500px) {
     .go-to {
       padding-top: 18px; } }
-  @media screen and (min-width: 670px) {
-    .go-to {
-      visibility: visible; } }
   .go-to ul {
     list-style-type: none;
     margin: 0;
     padding: 0; }
   .go-to li {
-    padding-right: 15px;
+    padding-right: 25px;
     display: block; }
     @media screen and (min-width: 670px) {
       .go-to li {
@@ -597,6 +593,12 @@ To do:
 .go-to-heading {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-style: italic; }
+  @media screen and (min-width: 670px) {
+    .go-to-heading {
+      margin-top: -1px; } }
+  @media screen and (min-width: 1150px) {
+    .go-to-heading {
+      margin-top: -2px; } }
 
 /*
 this lets us set a custom position for the anchors

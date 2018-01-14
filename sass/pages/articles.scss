@@ -8,16 +8,14 @@
     @include breakpoint(large)  {padding-top: 17px;}
     @include breakpoint(huge)   {padding-top: 18px;}
   color: $theme-faded;
-  position: absolute;
-  visibility: hidden;
-    @include breakpoint(small) {visibility: visible;}
+  position: absolute; 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   li {
-    padding-right: 15px;
+    padding-right: 25px;
     display: block;
     // changes the list type to be a row instead of a stack
     // on screens larger than phone-sized.
@@ -36,6 +34,15 @@
 .go-to-heading {
   @include baskerville;
   font-style: italic;
+  @include breakpoint(small)  {
+    margin-top: -1px;
+  }
+  @include breakpoint(large)  {
+    margin-top: -2px;
+  }
+}
+.go-to-link {
+
 }
 
 /*
