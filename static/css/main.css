@@ -51,7 +51,7 @@ html, body {
 .content {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 240px;
+  padding-top: 200px;
   margin-bottom: 130px; }
   @media screen and (min-width: 670px) {
     .content {
@@ -667,11 +667,16 @@ Add negative margin to accomodate the quotation mark
   content: "— "; }
 
 .about p {
-  font-size: 2em;
-  line-height: 1.45;
+  font-size: 1.8em;
+  line-height: 1.5;
   letter-spacing: -0.01em;
   max-width: 800px;
   margin-bottom: 0.5em; }
+  @media screen and (min-width: 900px) {
+    .about p {
+      font-size: 2em;
+      line-height: 1.45;
+      letter-spacing: -0.013em; } }
   @media screen and (min-width: 1500px) {
     .about p {
       max-width: 880px; } }

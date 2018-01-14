@@ -88,7 +88,7 @@ $footer-height-huge:   100px;
 }
 // Margin for above the page's title
 @mixin margin-vert-top-lead {
-	padding-top: $margin-tiny*12;
+	padding-top: $margin-tiny*10;
 	@include breakpoint(small)  {padding-top: $margin-small*8;}
 	@include breakpoint(medium) {padding-top: $margin-medium*7;}
 	@include breakpoint(large)  {padding-top: $margin-large*7;}

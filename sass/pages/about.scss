@@ -1,9 +1,14 @@
 .about p {
-  font-size: 2em;
-  line-height: 1.45;
+  font-size: 1.8em;
+  line-height: 1.5;
   letter-spacing: -0.01em;
   max-width: 800px;
   margin-bottom: 0.5em;
+  @include breakpoint(medium) {
+    font-size: 2em;
+    line-height: 1.45;
+    letter-spacing: -0.013em;
+  }
   @include breakpoint(huge) {
     max-width: 880px;
   }
