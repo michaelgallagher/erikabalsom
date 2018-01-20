@@ -2,6 +2,7 @@
 themes
 .sass-cache
 config.codekit
-/config.codekit
+**/config.codekit
 config.codekit3
-/config.codekit3
+**/config.codekit3
+public
