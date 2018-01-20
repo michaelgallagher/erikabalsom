@@ -62,6 +62,24 @@
 		"oAP": "\/content\/criticism\/_index.html",
 		"oF": 0
 		},
+	"\/content\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/content\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/content\/talks\/_index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -459,6 +477,16 @@
 		"oAP": "\/static\/fonts\/romansque-regular-webfont.eot",
 		"oF": 0
 		},
+	"\/static\/fonts\/romansque-regular-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/static\/fonts\/romansque-regular-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/static\/fonts\/romansque-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -479,16 +507,6 @@
 		"oA": 0,
 		"oAP": "\/static\/fonts\/romansque-regular-webfont.woff2",
 		"oF": 0
-		},
-	"\/static\/fonts\/romansque-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/static\/fonts\/romansque-webfont.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/static\/fonts\/sansroman-regular-webfont.eot": {
 		"cB": 0,
