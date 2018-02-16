@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://erikabalsom.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://erikabalsom.com/articles/</loc>
+  </url>
+  
+  <url>
+    <loc>http://erikabalsom.com/books/</loc>
+  </url>
+  
+  <url>
     <loc>http://erikabalsom.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://erikabalsom.com/</loc>
-    <priority>0</priority>
+    <loc>http://erikabalsom.com/criticism/</loc>
   </url>
   
   <url>
@@ -24,6 +35,14 @@
   <url>
     <loc>http://erikabalsom.com/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://erikabalsom.com/talks/</loc>
+  </url>
+  
+  <url>
+    <loc>http://erikabalsom.com/teaching/</loc>
   </url>
   
 </urlset>

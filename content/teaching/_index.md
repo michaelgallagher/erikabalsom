@@ -1,5 +1,6 @@
 +++
 title = "Teaching"
+draft = false
 +++
 
 Erika Balsom has taught undergraduate and/or graduate courses on the following topics:
