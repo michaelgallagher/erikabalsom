@@ -3,12 +3,12 @@
   @include romansque;
   @include go-to-top-margin;
   padding-top: 12px;
-    @include breakpoint(small) {padding-top: 12px;}
+    @include breakpoint(small)  {padding-top: 12px; position: fixed;}
     @include breakpoint(medium) {padding-top: 14px;}
     @include breakpoint(large)  {padding-top: 17px;}
     @include breakpoint(huge)   {padding-top: 18px;}
   color: $theme-faded;
-  position: absolute; 
+  position: absolute;
   ul {
     list-style-type: none;
     margin: 0;

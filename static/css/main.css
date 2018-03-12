@@ -589,7 +589,8 @@ To do:
       margin-top: 100px; } }
   @media screen and (min-width: 670px) {
     .go-to {
-      padding-top: 12px; } }
+      padding-top: 12px;
+      position: fixed; } }
   @media screen and (min-width: 900px) {
     .go-to {
       padding-top: 14px; } }
