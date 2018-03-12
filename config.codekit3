@@ -259,6 +259,16 @@
 		"oAP": "\/public\/criticism\/index.xml",
 		"oF": 0
 		},
+	"\/public\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/public\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -274,6 +284,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/public\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/public\/fonts\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/fonts\/.htaccess",
 		"oF": 0
 		},
 	"\/public\/fonts\/artisan-regular-webfont.eot": {
@@ -789,6 +806,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/static\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/static\/fonts\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/static\/fonts\/.htaccess",
 		"oF": 0
 		},
 	"\/static\/fonts\/artisan-regular-webfont.eot": {
