@@ -7,7 +7,7 @@
 		"uuidString": "D75E3F44-5BB5-4B2B-8BA9-8CCECE3A0C82"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -80,6 +80,13 @@
 		"oAP": "\/content\/criticism\/_index.html",
 		"oF": 0
 		},
+	"\/content\/curating\/_index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/content\/curating\/_index.html",
+		"oF": 0
+		},
 	"\/content\/talks\/_index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -145,6 +152,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/layouts\/criticism\/list.html",
+		"oF": 0
+		},
+	"\/layouts\/curating\/list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/layouts\/curating\/list.html",
 		"oF": 0
 		},
 	"\/layouts\/index.html": {
@@ -1040,7 +1054,8 @@
 	"creationDate": 537035279,
 	"displayValue": "erikabalsom",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-grumpy"
+	"iconImageName": "meme-grumpy",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1048,6 +1063,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2842,6 +2858,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
