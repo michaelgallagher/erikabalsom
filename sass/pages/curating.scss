@@ -15,8 +15,8 @@
     border-bottom: 1px solid $theme-faded;
     padding-bottom: 1px;
     &:hover {
-      color: $accent-color-primary;
-      border-color: $accent-color-primary;
+      color: $accent-color-secondary;
+      border-color: $accent-color-secondary;
       transition: color 0.2s ease, border-bottom-color 0.2s ease;
     }
   }
@@ -32,7 +32,7 @@
 		text-decoration: none;
 		border-bottom: 1px solid $theme-faded;
 		&:hover {
-			border-bottom: 1px solid $accent-color-primary;
+			border-bottom: 1px solid $accent-color-secondary;
 			transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		}
 	}

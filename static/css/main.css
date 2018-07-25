@@ -235,7 +235,7 @@ p {
     text-decoration: none;
     text-align: center; }
   .navigation li a:hover {
-    color: #ff3c4f; }
+    color: #0077ff; }
   .navigation li.nav-name {
     padding-right: 50px; }
   .navigation .nav-item {
@@ -288,7 +288,7 @@ button.menu-button {
   background-color: #fbfbfb; }
 
 button.close-button {
-  background-color: #ff3c4f;
+  background-color: #0077ff;
   float: right; }
   button.close-button:hover {
     color: #fff; }
@@ -367,7 +367,7 @@ To do:
   height: 100%;
   top: 0;
   z-index: 9999;
-  background: #ff3c4f;
+  background: #0077ff;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */ }
@@ -557,7 +557,7 @@ To do:
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   margin-top: 65px;
   padding-top: 12px;
-  color: #999;
+  color: #ff3c4f;
   position: absolute; }
   @media screen and (min-width: 670px) {
     .go-to {
@@ -612,11 +612,11 @@ To do:
         list-style: inline;
         float: left; } }
   .go-to li a {
-    color: #999;
+    color: #ff3c4f;
     text-decoration: none;
     text-align: center; }
   .go-to li a:hover {
-    color: #ff3c4f; }
+    color: #0077ff; }
 
 .go-to-heading {
   font-family: 'Libre Baskerville', Georgia, serif;
@@ -644,7 +644,7 @@ a.anchor {
     color: #999;
     text-decoration: underline; }
     .article a:hover {
-      color: #ff3c4f; }
+      color: #0077ff; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
@@ -655,8 +655,8 @@ a.anchor {
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px; }
     .further a:hover {
-      color: #ff3c4f;
-      border-color: #ff3c4f;
+      color: #0077ff;
+      border-color: #0077ff;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .call-out {
@@ -692,8 +692,8 @@ Add negative margin to accomodate the quotation mark
     border-bottom: 1px solid #999;
     padding-bottom: 1px; }
     .curating-explanation a:hover {
-      color: #ff3c4f;
-      border-color: #ff3c4f;
+      color: #0077ff;
+      border-color: #0077ff;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .screening-items {
@@ -703,7 +703,7 @@ Add negative margin to accomodate the quotation mark
     text-decoration: none;
     border-bottom: 1px solid #999; }
     .screening-items a:hover {
-      border-bottom: 1px solid #ff3c4f;
+      border-bottom: 1px solid #0077ff;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .curating .content p {
@@ -747,8 +747,8 @@ Add negative margin to accomodate the quotation mark
     text-decoration: none;
     border-bottom: 1px solid #bbb; }
     .about p a:hover {
-      color: #ff3c4f;
-      border-bottom-color: #ff3c4f;
+      color: #0077ff;
+      border-bottom-color: #0077ff;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */
