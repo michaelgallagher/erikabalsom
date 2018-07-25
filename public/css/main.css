@@ -717,6 +717,10 @@ Add negative margin to accomodate the quotation mark
   border-bottom: 1px solid #ff3c4f;
   padding-bottom: 3em; }
 
+a.red-link {
+  color: #ff3c4f;
+  border-bottom: 1px solid #ff3c4f; }
+
 .teaching .content ul {
   margin: 1em 0 0 0;
   padding: 0; }
