@@ -300,6 +300,20 @@
 		"oAP": "\/public\/css\/main.css.map",
 		"oF": 0
 		},
+	"\/public\/curating\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/curating\/index.html",
+		"oF": 0
+		},
+	"\/public\/curating\/index.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/curating\/index.xml",
+		"oF": 0
+		},
 	"\/public\/fonts\/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -788,6 +802,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/pages\/criticism.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/pages\/curating.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/curating.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

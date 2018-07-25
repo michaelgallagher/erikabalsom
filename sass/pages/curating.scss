@@ -1,0 +1,45 @@
+.curating {
+	.screenings {
+		@include baskerville;
+		padding-left: 1.25em;
+	}
+}
+
+
+.curating-explanation {
+  @include romansque;
+  color: #000;
+  a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid $theme-faded;
+    padding-bottom: 1px;
+    &:hover {
+      color: $accent-color-primary;
+      border-color: $accent-color-primary;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+  }
+}
+
+
+
+.screening-items {
+	padding-left: 2.5em;
+	// background-color: red;
+	a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid $theme-faded;
+		&:hover {
+			border-bottom: 1px solid $accent-color-primary;
+			transition: color 0.2s ease, border-bottom-color 0.2s ease;
+		}
+	}
+}
+
+.curating .content p {
+	// margin-bottom: 1em;
+	margin-left: 0.4em;
+	max-width: 720px;
+}
