@@ -273,33 +273,6 @@
 		"oAP": "\/public\/criticism\/index.xml",
 		"oF": 0
 		},
-	"\/public\/css\/main-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/main-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/public\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/public\/css\/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/public\/css\/main.css.map",
-		"oF": 0
-		},
 	"\/public\/curating\/index.html": {
 		"cB": 0,
 		"ft": 8192,

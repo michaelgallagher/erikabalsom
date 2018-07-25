@@ -710,6 +710,13 @@ Add negative margin to accomodate the quotation mark
   margin-left: 0.4em;
   max-width: 720px; }
 
+.extra-top-space {
+  margin-top: 1em; }
+
+.ongoing-with-divider {
+  border-bottom: 1px solid #ff3c4f;
+  padding-bottom: 3em; }
+
 .teaching .content ul {
   margin: 1em 0 0 0;
   padding: 0; }
