@@ -551,6 +551,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/public\/media\/GB_Projection_Series_11_Digital.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/media\/GB_Projection_Series_11_Digital.pdf",
+		"oF": 0
+		},
 	"\/public\/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -1071,6 +1078,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/static\/media\/GB_Projection_Series_11_Digital.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/static\/media\/GB_Projection_Series_11_Digital.pdf",
+		"oF": 0
 		}
 	},
 "hooks": [
