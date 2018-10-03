@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,23 +7,23 @@
 		"uuidString": "D75E3F44-5BB5-4B2B-8BA9-8CCECE3A0C82"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28901",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/config.toml": {
+	"/config.toml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config.toml",
+		"oAP": "/config.toml",
 		"oF": 0
 		},
-	"\/content\/_index.md": {
+	"/content/_index.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -32,7 +32,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/content\/_index.html",
+		"oAP": "/content/_index.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -41,7 +41,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/content\/about\/_index.md": {
+	"/content/about/_index.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -50,7 +50,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/content\/about\/_index.html",
+		"oAP": "/content/about/_index.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -59,42 +59,42 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/content\/articles\/_index.html": {
+	"/content/articles/_index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/content\/articles\/_index.html",
+		"oAP": "/content/articles/_index.html",
 		"oF": 0
 		},
-	"\/content\/books\/_index.html": {
+	"/content/books/_index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/content\/books\/_index.html",
+		"oAP": "/content/books/_index.html",
 		"oF": 0
 		},
-	"\/content\/criticism\/_index.html": {
+	"/content/criticism/_index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/content\/criticism\/_index.html",
+		"oAP": "/content/criticism/_index.html",
 		"oF": 0
 		},
-	"\/content\/curating\/_index.html": {
+	"/content/curating/_index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/content\/curating\/_index.html",
+		"oAP": "/content/curating/_index.html",
 		"oF": 0
 		},
-	"\/content\/talks\/_index.html": {
+	"/content/talks/_index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/content\/talks\/_index.html",
+		"oAP": "/content/talks/_index.html",
 		"oF": 0
 		},
-	"\/content\/teaching\/_index.md": {
+	"/content/teaching/_index.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -103,7 +103,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/content\/teaching\/_index.html",
+		"oAP": "/content/teaching/_index.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -112,495 +112,495 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/layouts\/_defaults\/list.html": {
+	"/layouts/_defaults/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/_defaults\/list.html",
+		"oAP": "/layouts/_defaults/list.html",
 		"oF": 0
 		},
-	"\/layouts\/_defaults\/single.html": {
+	"/layouts/_defaults/single.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/_defaults\/single.html",
+		"oAP": "/layouts/_defaults/single.html",
 		"oF": 0
 		},
-	"\/layouts\/about\/list.html": {
+	"/layouts/about/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/about\/list.html",
+		"oAP": "/layouts/about/list.html",
 		"oF": 0
 		},
-	"\/layouts\/articles\/list.html": {
+	"/layouts/articles/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/articles\/list.html",
+		"oAP": "/layouts/articles/list.html",
 		"oF": 0
 		},
-	"\/layouts\/books\/list.html": {
+	"/layouts/books/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/books\/list.html",
+		"oAP": "/layouts/books/list.html",
 		"oF": 0
 		},
-	"\/layouts\/criticism\/list.html": {
+	"/layouts/criticism/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/criticism\/list.html",
+		"oAP": "/layouts/criticism/list.html",
 		"oF": 0
 		},
-	"\/layouts\/curating\/list.html": {
+	"/layouts/curating/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/curating\/list.html",
+		"oAP": "/layouts/curating/list.html",
 		"oF": 0
 		},
-	"\/layouts\/index.html": {
+	"/layouts/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/index.html",
+		"oAP": "/layouts/index.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/footer.html": {
+	"/layouts/partials/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/partials\/footer.html",
+		"oAP": "/layouts/partials/footer.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/header.html": {
+	"/layouts/partials/header.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/partials\/header.html",
+		"oAP": "/layouts/partials/header.html",
 		"oF": 0
 		},
-	"\/layouts\/partials\/nav.html": {
+	"/layouts/partials/nav.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/partials\/nav.html",
+		"oAP": "/layouts/partials/nav.html",
 		"oF": 0
 		},
-	"\/layouts\/talks\/list.html": {
+	"/layouts/talks/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/talks\/list.html",
+		"oAP": "/layouts/talks/list.html",
 		"oF": 0
 		},
-	"\/layouts\/teaching\/list.html": {
+	"/layouts/teaching/list.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layouts\/teaching\/list.html",
+		"oAP": "/layouts/teaching/list.html",
 		"oF": 0
 		},
-	"\/public\/about\/index.html": {
+	"/public/about/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/about\/index.html",
+		"oAP": "/public/about/index.html",
 		"oF": 0
 		},
-	"\/public\/about\/index.xml": {
+	"/public/about/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/about\/index.xml",
+		"oAP": "/public/about/index.xml",
 		"oF": 0
 		},
-	"\/public\/articles\/index.html": {
+	"/public/articles/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/articles\/index.html",
+		"oAP": "/public/articles/index.html",
 		"oF": 0
 		},
-	"\/public\/articles\/index.xml": {
+	"/public/articles/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/articles\/index.xml",
+		"oAP": "/public/articles/index.xml",
 		"oF": 0
 		},
-	"\/public\/books\/index.html": {
+	"/public/books/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/books\/index.html",
+		"oAP": "/public/books/index.html",
 		"oF": 0
 		},
-	"\/public\/books\/index.xml": {
+	"/public/books/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/books\/index.xml",
+		"oAP": "/public/books/index.xml",
 		"oF": 0
 		},
-	"\/public\/categories\/home\/index.xml": {
+	"/public/categories/home/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/categories\/home\/index.xml",
+		"oAP": "/public/categories/home/index.xml",
 		"oF": 0
 		},
-	"\/public\/categories\/index.xml": {
+	"/public/categories/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/categories\/index.xml",
+		"oAP": "/public/categories/index.xml",
 		"oF": 0
 		},
-	"\/public\/criticism\/index.html": {
+	"/public/criticism/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/criticism\/index.html",
+		"oAP": "/public/criticism/index.html",
 		"oF": 0
 		},
-	"\/public\/criticism\/index.xml": {
+	"/public/criticism/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/criticism\/index.xml",
+		"oAP": "/public/criticism/index.xml",
 		"oF": 0
 		},
-	"\/public\/css\/main-min.css": {
+	"/public/css/main-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/css\/main-min-min.css",
+		"oAP": "/public/css/main-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/public\/css\/main.css": {
+	"/public/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/css\/main-min.css",
+		"oAP": "/public/css/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/public\/css\/main.css.map": {
+	"/public/css/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/css\/main.css.map",
+		"oAP": "/public/css/main.css.map",
 		"oF": 0
 		},
-	"\/public\/curating\/index.html": {
+	"/public/curating/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/curating\/index.html",
+		"oAP": "/public/curating/index.html",
 		"oF": 0
 		},
-	"\/public\/curating\/index.xml": {
+	"/public/curating/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/curating\/index.xml",
+		"oAP": "/public/curating/index.xml",
 		"oF": 0
 		},
-	"\/public\/fonts\/.htaccess": {
+	"/public/fonts/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/.htaccess",
+		"oAP": "/public/fonts/.htaccess",
 		"oF": 0
 		},
-	"\/public\/fonts\/artisan-regular-webfont.eot": {
+	"/public/fonts/artisan-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/artisan-regular-webfont.eot",
+		"oAP": "/public/fonts/artisan-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/public\/fonts\/artisan-regular-webfont.svg": {
+	"/public/fonts/artisan-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/fonts\/artisan-regular-webfont.svg",
+		"oAP": "/public/fonts/artisan-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/public\/fonts\/artisan-regular-webfont.ttf": {
+	"/public/fonts/artisan-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/artisan-regular-webfont.ttf",
+		"oAP": "/public/fonts/artisan-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/public\/fonts\/artisan-regular-webfont.woff": {
+	"/public/fonts/artisan-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/artisan-regular-webfont.woff",
+		"oAP": "/public/fonts/artisan-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/public\/fonts\/artisan-regular-webfont.woff2": {
+	"/public/fonts/artisan-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/artisan-regular-webfont.woff2",
+		"oAP": "/public/fonts/artisan-regular-webfont.woff2",
 		"oF": 0
 		},
-	"\/public\/fonts\/romansque-regular-webfont.eot": {
+	"/public/fonts/romansque-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/romansque-regular-webfont.eot",
+		"oAP": "/public/fonts/romansque-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/public\/fonts\/romansque-regular-webfont.svg": {
+	"/public/fonts/romansque-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/fonts\/romansque-regular-webfont.svg",
+		"oAP": "/public/fonts/romansque-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/public\/fonts\/romansque-regular-webfont.ttf": {
+	"/public/fonts/romansque-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/romansque-regular-webfont.ttf",
+		"oAP": "/public/fonts/romansque-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/public\/fonts\/romansque-regular-webfont.woff": {
+	"/public/fonts/romansque-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/romansque-regular-webfont.woff",
+		"oAP": "/public/fonts/romansque-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/public\/fonts\/romansque-regular-webfont.woff2": {
+	"/public/fonts/romansque-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/romansque-regular-webfont.woff2",
+		"oAP": "/public/fonts/romansque-regular-webfont.woff2",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-regular-webfont.eot": {
+	"/public/fonts/sansroman-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-regular-webfont.eot",
+		"oAP": "/public/fonts/sansroman-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-regular-webfont.svg": {
+	"/public/fonts/sansroman-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/fonts\/sansroman-regular-webfont.svg",
+		"oAP": "/public/fonts/sansroman-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/public\/fonts\/sansroman-regular-webfont.ttf": {
+	"/public/fonts/sansroman-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-regular-webfont.ttf",
+		"oAP": "/public/fonts/sansroman-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-regular-webfont.woff": {
+	"/public/fonts/sansroman-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-regular-webfont.woff",
+		"oAP": "/public/fonts/sansroman-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-rotalic-webfont.eot": {
+	"/public/fonts/sansroman-rotalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-rotalic-webfont.eot",
+		"oAP": "/public/fonts/sansroman-rotalic-webfont.eot",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-rotalic-webfont.svg": {
+	"/public/fonts/sansroman-rotalic-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/fonts\/sansroman-rotalic-webfont.svg",
+		"oAP": "/public/fonts/sansroman-rotalic-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/public\/fonts\/sansroman-rotalic-webfont.ttf": {
+	"/public/fonts/sansroman-rotalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-rotalic-webfont.ttf",
+		"oAP": "/public/fonts/sansroman-rotalic-webfont.ttf",
 		"oF": 0
 		},
-	"\/public\/fonts\/sansroman-rotalic-webfont.woff": {
+	"/public/fonts/sansroman-rotalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/sansroman-rotalic-webfont.woff",
+		"oAP": "/public/fonts/sansroman-rotalic-webfont.woff",
 		"oF": 0
 		},
-	"\/public\/fonts\/shelter-medium-webfont.eot": {
+	"/public/fonts/shelter-medium-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/shelter-medium-webfont.eot",
+		"oAP": "/public/fonts/shelter-medium-webfont.eot",
 		"oF": 0
 		},
-	"\/public\/fonts\/shelter-medium-webfont.svg": {
+	"/public/fonts/shelter-medium-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/public\/fonts\/shelter-medium-webfont.svg",
+		"oAP": "/public/fonts/shelter-medium-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/public\/fonts\/shelter-medium-webfont.ttf": {
+	"/public/fonts/shelter-medium-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/shelter-medium-webfont.ttf",
+		"oAP": "/public/fonts/shelter-medium-webfont.ttf",
 		"oF": 0
 		},
-	"\/public\/fonts\/shelter-medium-webfont.woff": {
+	"/public/fonts/shelter-medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/shelter-medium-webfont.woff",
+		"oAP": "/public/fonts/shelter-medium-webfont.woff",
 		"oF": 0
 		},
-	"\/public\/fonts\/shelter-medium-webfont.woff2": {
+	"/public/fonts/shelter-medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/fonts\/shelter-medium-webfont.woff2",
+		"oAP": "/public/fonts/shelter-medium-webfont.woff2",
 		"oF": 0
 		},
-	"\/public\/index.html": {
+	"/public/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/index.html",
+		"oAP": "/public/index.html",
 		"oF": 0
 		},
-	"\/public\/index.xml": {
+	"/public/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/index.xml",
+		"oAP": "/public/index.xml",
 		"oF": 0
 		},
-	"\/public\/js\/nav.js": {
+	"/public/js/nav.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/nav-min.js",
+		"oAP": "/public/js/nav-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/js\/responsive-nav.js": {
+	"/public/js/responsive-nav.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/responsive-nav-min.js",
+		"oAP": "/public/js/responsive-nav-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/js\/scripts.js": {
+	"/public/js/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/scripts-min.js",
+		"oAP": "/public/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/js\/vendor\/pushy.js": {
+	"/public/js/vendor/pushy.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/vendor\/pushy-min.js",
+		"oAP": "/public/js/vendor/pushy-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/public\/media\/GB_Projection_Series_11_Digital.pdf": {
+	"/public/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/media\/GB_Projection_Series_11_Digital.pdf",
+		"oAP": "/public/media/GB_Projection_Series_11_Digital.pdf",
 		"oF": 0
 		},
-	"\/public\/sitemap.xml": {
+	"/public/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/sitemap.xml",
+		"oAP": "/public/sitemap.xml",
 		"oF": 0
 		},
-	"\/public\/tags\/index.xml": {
+	"/public/tags/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/tags\/index.xml",
+		"oAP": "/public/tags/index.xml",
 		"oF": 0
 		},
-	"\/public\/talks\/index.html": {
+	"/public/talks/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/talks\/index.html",
+		"oAP": "/public/talks/index.html",
 		"oF": 0
 		},
-	"\/public\/talks\/index.xml": {
+	"/public/talks/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/talks\/index.xml",
+		"oAP": "/public/talks/index.xml",
 		"oF": 0
 		},
-	"\/public\/teaching\/index.html": {
+	"/public/teaching/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/teaching\/index.html",
+		"oAP": "/public/teaching/index.html",
 		"oF": 0
 		},
-	"\/public\/teaching\/index.xml": {
+	"/public/teaching/index.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/teaching\/index.xml",
+		"oAP": "/public/teaching/index.xml",
 		"oF": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -609,7 +609,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -618,7 +618,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/sass\/components\/footer.scss": {
+	"/sass/components/footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -626,12 +626,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/footer.css",
+		"oAP": "/sass/components/footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/nav.scss": {
+	"/sass/components/nav.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -639,12 +639,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/nav.css",
+		"oAP": "/sass/components/nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/pages.scss": {
+	"/sass/components/pages.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -652,12 +652,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/pages.css",
+		"oAP": "/sass/components/pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/pushy.scss": {
+	"/sass/components/pushy.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -665,12 +665,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/components\/pushy.css",
+		"oAP": "/sass/components/pushy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/foundation\/breakpoints.scss": {
+	"/sass/foundation/breakpoints.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -678,12 +678,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/foundation\/breakpoints.css",
+		"oAP": "/sass/foundation/breakpoints.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/foundation\/defaults.scss": {
+	"/sass/foundation/defaults.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -691,12 +691,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/foundation\/defaults.css",
+		"oAP": "/sass/foundation/defaults.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/foundation\/fonts.scss": {
+	"/sass/foundation/fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -704,12 +704,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/foundation\/fonts.css",
+		"oAP": "/sass/foundation/fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/colors.scss": {
+	"/sass/layout/colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -717,12 +717,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/colors.css",
+		"oAP": "/sass/layout/colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/grid.scss": {
+	"/sass/layout/grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -730,12 +730,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/grid.css",
+		"oAP": "/sass/layout/grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/margins.scss": {
+	"/sass/layout/margins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -743,12 +743,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/margins.css",
+		"oAP": "/sass/layout/margins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/layout\/typography.scss": {
+	"/sass/layout/typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -756,12 +756,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/layout\/typography.css",
+		"oAP": "/sass/layout/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/main.scss": {
+	"/sass/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -769,12 +769,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/static\/css\/main.css",
+		"oAP": "/static/css/main.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/about.scss": {
+	"/sass/pages/about.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -782,12 +782,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/pages\/about.css",
+		"oAP": "/sass/pages/about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/articles.scss": {
+	"/sass/pages/articles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -795,12 +795,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/pages\/articles.css",
+		"oAP": "/sass/pages/articles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/criticism.scss": {
+	"/sass/pages/criticism.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -808,12 +808,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/pages\/criticism.css",
+		"oAP": "/sass/pages/criticism.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/curating.scss": {
+	"/sass/pages/curating.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -821,12 +821,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/pages\/curating.css",
+		"oAP": "/sass/pages/curating.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/pages\/teaching.scss": {
+	"/sass/pages/teaching.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -834,256 +834,256 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/pages\/teaching.css",
+		"oAP": "/sass/pages/teaching.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/static\/css\/main.css": {
+	"/static/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/static\/css\/main-min.css",
+		"oAP": "/static/css/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/static\/css\/main.css.map": {
+	"/static/css/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/css\/main.css.map",
+		"oAP": "/static/css/main.css.map",
 		"oF": 0
 		},
-	"\/static\/fonts\/.htaccess": {
+	"/static/fonts/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/.htaccess",
+		"oAP": "/static/fonts/.htaccess",
 		"oF": 0
 		},
-	"\/static\/fonts\/artisan-regular-webfont.eot": {
+	"/static/fonts/artisan-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/artisan-regular-webfont.eot",
+		"oAP": "/static/fonts/artisan-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/static\/fonts\/artisan-regular-webfont.svg": {
+	"/static/fonts/artisan-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/static\/fonts\/artisan-regular-webfont.svg",
+		"oAP": "/static/fonts/artisan-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/static\/fonts\/artisan-regular-webfont.ttf": {
+	"/static/fonts/artisan-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/artisan-regular-webfont.ttf",
+		"oAP": "/static/fonts/artisan-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/static\/fonts\/artisan-regular-webfont.woff": {
+	"/static/fonts/artisan-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/artisan-regular-webfont.woff",
+		"oAP": "/static/fonts/artisan-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/static\/fonts\/artisan-regular-webfont.woff2": {
+	"/static/fonts/artisan-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/artisan-regular-webfont.woff2",
+		"oAP": "/static/fonts/artisan-regular-webfont.woff2",
 		"oF": 0
 		},
-	"\/static\/fonts\/romansque-regular-webfont.eot": {
+	"/static/fonts/romansque-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/romansque-regular-webfont.eot",
+		"oAP": "/static/fonts/romansque-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/static\/fonts\/romansque-regular-webfont.svg": {
+	"/static/fonts/romansque-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/static\/fonts\/romansque-regular-webfont.svg",
+		"oAP": "/static/fonts/romansque-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/static\/fonts\/romansque-regular-webfont.ttf": {
+	"/static/fonts/romansque-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/romansque-regular-webfont.ttf",
+		"oAP": "/static/fonts/romansque-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/static\/fonts\/romansque-regular-webfont.woff": {
+	"/static/fonts/romansque-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/romansque-regular-webfont.woff",
+		"oAP": "/static/fonts/romansque-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/static\/fonts\/romansque-regular-webfont.woff2": {
+	"/static/fonts/romansque-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/romansque-regular-webfont.woff2",
+		"oAP": "/static/fonts/romansque-regular-webfont.woff2",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-regular-webfont.eot": {
+	"/static/fonts/sansroman-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-regular-webfont.eot",
+		"oAP": "/static/fonts/sansroman-regular-webfont.eot",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-regular-webfont.svg": {
+	"/static/fonts/sansroman-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/static\/fonts\/sansroman-regular-webfont.svg",
+		"oAP": "/static/fonts/sansroman-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/static\/fonts\/sansroman-regular-webfont.ttf": {
+	"/static/fonts/sansroman-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-regular-webfont.ttf",
+		"oAP": "/static/fonts/sansroman-regular-webfont.ttf",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-regular-webfont.woff": {
+	"/static/fonts/sansroman-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-regular-webfont.woff",
+		"oAP": "/static/fonts/sansroman-regular-webfont.woff",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-rotalic-webfont.eot": {
+	"/static/fonts/sansroman-rotalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-rotalic-webfont.eot",
+		"oAP": "/static/fonts/sansroman-rotalic-webfont.eot",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-rotalic-webfont.svg": {
+	"/static/fonts/sansroman-rotalic-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/static\/fonts\/sansroman-rotalic-webfont.svg",
+		"oAP": "/static/fonts/sansroman-rotalic-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/static\/fonts\/sansroman-rotalic-webfont.ttf": {
+	"/static/fonts/sansroman-rotalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-rotalic-webfont.ttf",
+		"oAP": "/static/fonts/sansroman-rotalic-webfont.ttf",
 		"oF": 0
 		},
-	"\/static\/fonts\/sansroman-rotalic-webfont.woff": {
+	"/static/fonts/sansroman-rotalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/sansroman-rotalic-webfont.woff",
+		"oAP": "/static/fonts/sansroman-rotalic-webfont.woff",
 		"oF": 0
 		},
-	"\/static\/fonts\/shelter-medium-webfont.eot": {
+	"/static/fonts/shelter-medium-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/shelter-medium-webfont.eot",
+		"oAP": "/static/fonts/shelter-medium-webfont.eot",
 		"oF": 0
 		},
-	"\/static\/fonts\/shelter-medium-webfont.svg": {
+	"/static/fonts/shelter-medium-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/static\/fonts\/shelter-medium-webfont.svg",
+		"oAP": "/static/fonts/shelter-medium-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/static\/fonts\/shelter-medium-webfont.ttf": {
+	"/static/fonts/shelter-medium-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/shelter-medium-webfont.ttf",
+		"oAP": "/static/fonts/shelter-medium-webfont.ttf",
 		"oF": 0
 		},
-	"\/static\/fonts\/shelter-medium-webfont.woff": {
+	"/static/fonts/shelter-medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/shelter-medium-webfont.woff",
+		"oAP": "/static/fonts/shelter-medium-webfont.woff",
 		"oF": 0
 		},
-	"\/static\/fonts\/shelter-medium-webfont.woff2": {
+	"/static/fonts/shelter-medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/fonts\/shelter-medium-webfont.woff2",
+		"oAP": "/static/fonts/shelter-medium-webfont.woff2",
 		"oF": 0
 		},
-	"\/static\/js\/nav.js": {
+	"/static/js/nav.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/js\/nav-min.js",
+		"oAP": "/static/js/nav-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/static\/js\/responsive-nav.js": {
+	"/static/js/responsive-nav.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/js\/responsive-nav-min.js",
+		"oAP": "/static/js/responsive-nav-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/static\/js\/scripts.js": {
+	"/static/js/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/js\/scripts-min.js",
+		"oAP": "/static/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/static\/js\/vendor\/pushy.js": {
+	"/static/js/vendor/pushy.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/static\/js\/vendor\/pushy-min.js",
+		"oAP": "/static/js/vendor/pushy-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/static\/media\/GB_Projection_Series_11_Digital.pdf": {
+	"/static/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/static\/media\/GB_Projection_Series_11_Digital.pdf",
+		"oAP": "/static/media/GB_Projection_Series_11_Digital.pdf",
 		"oF": 0
 		}
 	},
@@ -1103,141 +1103,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1249,7 +1202,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1261,7 +1235,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1297,53 +1289,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1352,6 +1337,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1709,6 +1695,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1720,6 +1710,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1765,6 +1759,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1783,10 +1781,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -1985,9 +1979,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2341,6 +2339,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2369,6 +2371,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2376,6 +2382,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2431,7 +2441,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2491,7 +2501,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2886,7 +2896,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2905,7 +2914,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2937,19 +2946,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3005,7 +3014,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3034,7 +3043,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3058,36 +3067,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3095,11 +3138,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3123,6 +3166,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3139,7 +3186,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3147,20 +3202,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3175,6 +3242,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3183,12 +3258,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3199,11 +3282,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3215,23 +3306,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3243,9 +3362,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
