@@ -1,12 +1,25 @@
 .criticism .content {
   p {
-    margin-bottom: 1em;
+    margin-top: 1em;
     margin-left: 0.4em;
     // text-indent: -0.4em;
+  }
+  p:first-of-type {
+    margin-top: 0;
   }
   i {
     // padding-right: 0.5em;
   }
+  .excerpted-in {
+    margin-top: 0;
+  }
+  .excerpted {
+    margin-top: 0;
+    p {
+      margin-top: 0;
+    }
+  }
+
 }
 
 /*
