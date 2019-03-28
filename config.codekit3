@@ -7,11 +7,12 @@
 		"uuidString": "D75E3F44-5BB5-4B2B-8BA9-8CCECE3A0C82"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -19,6 +20,7 @@
 	"/config.toml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/config.toml",
 		"oF": 0
@@ -31,6 +33,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/_index.html",
 		"oF": 0,
@@ -49,6 +52,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/about/_index.html",
 		"oF": 0,
@@ -62,6 +66,7 @@
 	"/content/articles/_index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/articles/_index.html",
 		"oF": 0
@@ -69,6 +74,7 @@
 	"/content/books/_index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/books/_index.html",
 		"oF": 0
@@ -76,6 +82,7 @@
 	"/content/criticism/_index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/criticism/_index.html",
 		"oF": 0
@@ -83,6 +90,7 @@
 	"/content/curating/_index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/curating/_index.html",
 		"oF": 0
@@ -90,6 +98,7 @@
 	"/content/talks/_index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/talks/_index.html",
 		"oF": 0
@@ -102,6 +111,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/content/teaching/_index.html",
 		"oF": 0,
@@ -115,6 +125,7 @@
 	"/layouts/_defaults/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/_defaults/list.html",
 		"oF": 0
@@ -122,6 +133,7 @@
 	"/layouts/_defaults/single.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/_defaults/single.html",
 		"oF": 0
@@ -129,6 +141,7 @@
 	"/layouts/about/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/about/list.html",
 		"oF": 0
@@ -136,6 +149,7 @@
 	"/layouts/articles/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/articles/list.html",
 		"oF": 0
@@ -143,6 +157,7 @@
 	"/layouts/books/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/books/list.html",
 		"oF": 0
@@ -150,6 +165,7 @@
 	"/layouts/criticism/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/criticism/list.html",
 		"oF": 0
@@ -157,6 +173,7 @@
 	"/layouts/curating/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/curating/list.html",
 		"oF": 0
@@ -164,6 +181,7 @@
 	"/layouts/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/index.html",
 		"oF": 0
@@ -171,6 +189,7 @@
 	"/layouts/partials/footer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/partials/footer.html",
 		"oF": 0
@@ -178,6 +197,7 @@
 	"/layouts/partials/header.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/partials/header.html",
 		"oF": 0
@@ -185,6 +205,7 @@
 	"/layouts/partials/nav.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/partials/nav.html",
 		"oF": 0
@@ -192,6 +213,7 @@
 	"/layouts/talks/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/talks/list.html",
 		"oF": 0
@@ -199,6 +221,7 @@
 	"/layouts/teaching/list.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/teaching/list.html",
 		"oF": 0
@@ -206,6 +229,7 @@
 	"/public/about/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/about/index.html",
 		"oF": 0
@@ -213,6 +237,7 @@
 	"/public/about/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/about/index.xml",
 		"oF": 0
@@ -220,6 +245,7 @@
 	"/public/articles/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/articles/index.html",
 		"oF": 0
@@ -227,6 +253,7 @@
 	"/public/articles/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/articles/index.xml",
 		"oF": 0
@@ -234,6 +261,7 @@
 	"/public/books/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/books/index.html",
 		"oF": 0
@@ -241,6 +269,7 @@
 	"/public/books/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/books/index.xml",
 		"oF": 0
@@ -248,6 +277,7 @@
 	"/public/categories/home/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/categories/home/index.xml",
 		"oF": 0
@@ -255,6 +285,7 @@
 	"/public/categories/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/categories/index.xml",
 		"oF": 0
@@ -262,6 +293,7 @@
 	"/public/criticism/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/criticism/index.html",
 		"oF": 0
@@ -269,6 +301,7 @@
 	"/public/criticism/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/criticism/index.xml",
 		"oF": 0
@@ -296,6 +329,7 @@
 	"/public/css/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/css/main.css.map",
 		"oF": 0
@@ -303,6 +337,7 @@
 	"/public/curating/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/curating/index.html",
 		"oF": 0
@@ -310,6 +345,7 @@
 	"/public/curating/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/curating/index.xml",
 		"oF": 0
@@ -317,6 +353,7 @@
 	"/public/fonts/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/.htaccess",
 		"oF": 0
@@ -324,6 +361,7 @@
 	"/public/fonts/artisan-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/artisan-regular-webfont.eot",
 		"oF": 0
@@ -341,6 +379,7 @@
 	"/public/fonts/artisan-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/artisan-regular-webfont.ttf",
 		"oF": 0
@@ -348,6 +387,7 @@
 	"/public/fonts/artisan-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/artisan-regular-webfont.woff",
 		"oF": 0
@@ -355,6 +395,7 @@
 	"/public/fonts/artisan-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/artisan-regular-webfont.woff2",
 		"oF": 0
@@ -362,6 +403,7 @@
 	"/public/fonts/romansque-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/romansque-regular-webfont.eot",
 		"oF": 0
@@ -379,6 +421,7 @@
 	"/public/fonts/romansque-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/romansque-regular-webfont.ttf",
 		"oF": 0
@@ -386,6 +429,7 @@
 	"/public/fonts/romansque-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/romansque-regular-webfont.woff",
 		"oF": 0
@@ -393,6 +437,7 @@
 	"/public/fonts/romansque-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/romansque-regular-webfont.woff2",
 		"oF": 0
@@ -400,6 +445,7 @@
 	"/public/fonts/sansroman-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-regular-webfont.eot",
 		"oF": 0
@@ -417,6 +463,7 @@
 	"/public/fonts/sansroman-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-regular-webfont.ttf",
 		"oF": 0
@@ -424,6 +471,7 @@
 	"/public/fonts/sansroman-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-regular-webfont.woff",
 		"oF": 0
@@ -431,6 +479,7 @@
 	"/public/fonts/sansroman-rotalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-rotalic-webfont.eot",
 		"oF": 0
@@ -448,6 +497,7 @@
 	"/public/fonts/sansroman-rotalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-rotalic-webfont.ttf",
 		"oF": 0
@@ -455,6 +505,7 @@
 	"/public/fonts/sansroman-rotalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/sansroman-rotalic-webfont.woff",
 		"oF": 0
@@ -462,6 +513,7 @@
 	"/public/fonts/shelter-medium-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/shelter-medium-webfont.eot",
 		"oF": 0
@@ -479,6 +531,7 @@
 	"/public/fonts/shelter-medium-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/shelter-medium-webfont.ttf",
 		"oF": 0
@@ -486,6 +539,7 @@
 	"/public/fonts/shelter-medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/shelter-medium-webfont.woff",
 		"oF": 0
@@ -493,6 +547,7 @@
 	"/public/fonts/shelter-medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/fonts/shelter-medium-webfont.woff2",
 		"oF": 0
@@ -500,6 +555,7 @@
 	"/public/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/index.html",
 		"oF": 0
@@ -507,11 +563,13 @@
 	"/public/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/index.xml",
 		"oF": 0
 		},
 	"/public/js/nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -522,6 +580,7 @@
 		"tS": 0
 		},
 	"/public/js/responsive-nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -532,6 +591,7 @@
 		"tS": 0
 		},
 	"/public/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -542,6 +602,7 @@
 		"tS": 0
 		},
 	"/public/js/vendor/pushy.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -554,6 +615,7 @@
 	"/public/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/media/GB_Projection_Series_11_Digital.pdf",
 		"oF": 0
@@ -561,6 +623,7 @@
 	"/public/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/sitemap.xml",
 		"oF": 0
@@ -568,6 +631,7 @@
 	"/public/tags/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/tags/index.xml",
 		"oF": 0
@@ -575,6 +639,7 @@
 	"/public/talks/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/talks/index.html",
 		"oF": 0
@@ -582,6 +647,7 @@
 	"/public/talks/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/talks/index.xml",
 		"oF": 0
@@ -589,6 +655,7 @@
 	"/public/teaching/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/teaching/index.html",
 		"oF": 0
@@ -596,6 +663,7 @@
 	"/public/teaching/index.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/teaching/index.xml",
 		"oF": 0
@@ -608,6 +676,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/README.html",
 		"oF": 0,
@@ -852,6 +921,7 @@
 	"/static/css/main.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/css/main.css.map",
 		"oF": 0
@@ -859,6 +929,7 @@
 	"/static/fonts/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/.htaccess",
 		"oF": 0
@@ -866,6 +937,7 @@
 	"/static/fonts/artisan-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/artisan-regular-webfont.eot",
 		"oF": 0
@@ -883,6 +955,7 @@
 	"/static/fonts/artisan-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/artisan-regular-webfont.ttf",
 		"oF": 0
@@ -890,6 +963,7 @@
 	"/static/fonts/artisan-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/artisan-regular-webfont.woff",
 		"oF": 0
@@ -897,6 +971,7 @@
 	"/static/fonts/artisan-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/artisan-regular-webfont.woff2",
 		"oF": 0
@@ -904,6 +979,7 @@
 	"/static/fonts/romansque-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/romansque-regular-webfont.eot",
 		"oF": 0
@@ -921,6 +997,7 @@
 	"/static/fonts/romansque-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/romansque-regular-webfont.ttf",
 		"oF": 0
@@ -928,6 +1005,7 @@
 	"/static/fonts/romansque-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/romansque-regular-webfont.woff",
 		"oF": 0
@@ -935,6 +1013,7 @@
 	"/static/fonts/romansque-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/romansque-regular-webfont.woff2",
 		"oF": 0
@@ -942,6 +1021,7 @@
 	"/static/fonts/sansroman-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-regular-webfont.eot",
 		"oF": 0
@@ -959,6 +1039,7 @@
 	"/static/fonts/sansroman-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-regular-webfont.ttf",
 		"oF": 0
@@ -966,6 +1047,7 @@
 	"/static/fonts/sansroman-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-regular-webfont.woff",
 		"oF": 0
@@ -973,6 +1055,7 @@
 	"/static/fonts/sansroman-rotalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-rotalic-webfont.eot",
 		"oF": 0
@@ -990,6 +1073,7 @@
 	"/static/fonts/sansroman-rotalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-rotalic-webfont.ttf",
 		"oF": 0
@@ -997,6 +1081,7 @@
 	"/static/fonts/sansroman-rotalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/sansroman-rotalic-webfont.woff",
 		"oF": 0
@@ -1004,6 +1089,7 @@
 	"/static/fonts/shelter-medium-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/shelter-medium-webfont.eot",
 		"oF": 0
@@ -1021,6 +1107,7 @@
 	"/static/fonts/shelter-medium-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/shelter-medium-webfont.ttf",
 		"oF": 0
@@ -1028,6 +1115,7 @@
 	"/static/fonts/shelter-medium-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/shelter-medium-webfont.woff",
 		"oF": 0
@@ -1035,11 +1123,13 @@
 	"/static/fonts/shelter-medium-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/fonts/shelter-medium-webfont.woff2",
 		"oF": 0
 		},
 	"/static/js/nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1050,6 +1140,7 @@
 		"tS": 0
 		},
 	"/static/js/responsive-nav.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1060,6 +1151,7 @@
 		"tS": 0
 		},
 	"/static/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1070,6 +1162,7 @@
 		"tS": 0
 		},
 	"/static/js/vendor/pushy.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1082,6 +1175,7 @@
 	"/static/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/static/media/GB_Projection_Series_11_Digital.pdf",
 		"oF": 0
@@ -1181,6 +1275,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -1200,6 +1300,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -1250,6 +1380,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -1283,10 +1416,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -2235,6 +2374,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2897,6 +3040,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2918,6 +3062,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -2940,7 +3085,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2979,6 +3125,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2988,7 +3135,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3009,7 +3157,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3038,7 +3187,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3126,16 +3276,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -3147,14 +3301,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3177,6 +3331,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3202,10 +3360,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -3214,13 +3368,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -3232,6 +3386,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -3254,13 +3412,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -3269,10 +3427,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -3296,6 +3450,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3330,6 +3488,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -3339,6 +3501,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3366,15 +3532,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
