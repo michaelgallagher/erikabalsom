@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Erika Balsom</title>
-    <link>http://erikabalsom.com/categories/home/</link>
+    <link>https://erikabalsom.com/categories/home/</link>
     <description>Recent content in Home on Erika Balsom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://erikabalsom.com/categories/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erikabalsom.com/categories/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home</title>
-      <link>http://erikabalsom.com/</link>
+      <link>https://erikabalsom.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://erikabalsom.com/</guid>
+      <guid>https://erikabalsom.com/</guid>
       <description></description>
     </item>
     
