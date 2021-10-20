@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://erikabalsom.com/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/articles/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/books/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/criticism/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/curating/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/categories/home/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/talks/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://erikabalsom.com/teaching/</loc>
   </url>
-  
 </urlset>
