@@ -16,11 +16,11 @@
   // The inner wrapper provides the bottom rule
   .nav-inner-wrapper {
     padding-bottom: 30px;
-    border-bottom: 15px solid black;
-      @include breakpoint(small)  {padding-bottom: 33px;  border-bottom: 17px solid black;}
-    	@include breakpoint(medium) {padding-bottom: 36px;  border-bottom: 18px solid black;}
-    	@include breakpoint(large)  {padding-bottom: 40px;  border-bottom: 20px solid black;}
-    	@include breakpoint(huge)   {padding-bottom: 42px;  border-bottom: 20px solid black;}
+    border-bottom: 1px solid black;
+      @include breakpoint(small)  {padding-bottom: 33px;  border-bottom: 1px solid black;}
+    	@include breakpoint(medium) {padding-bottom: 36px;  border-bottom: 1px solid black;}
+    	@include breakpoint(large)  {padding-bottom: 40px;  border-bottom: 1px solid black;}
+    	@include breakpoint(huge)   {padding-bottom: 42px;  border-bottom: 1px solid black;}
   }
 
   ul {

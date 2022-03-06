@@ -30,11 +30,11 @@ $footer-height-huge:   100px;
 	@include breakpoint(huge)   {margin-bottom: $footer-height-huge*2;}
 }
 @mixin go-to-top-margin {
-	margin-top: $footer-height-tiny;
-	@include breakpoint(small)  {margin-top: $footer-height-small;}
-	@include breakpoint(medium) {margin-top: $footer-height-medium;}
-	@include breakpoint(large)  {margin-top: $footer-height-large;}
-	@include breakpoint(huge)   {margin-top: $footer-height-huge;}
+	margin-top: 65px;
+	@include breakpoint(small)  {margin-top: 74px;}
+	@include breakpoint(medium) {margin-top: 81px;}
+	@include breakpoint(large)  {margin-top: 92px;}
+	@include breakpoint(huge)   {margin-top: 81px;}
 }
 
 /* Horizontal margins

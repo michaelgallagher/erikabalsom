@@ -140,10 +140,9 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-size: 1em; }
 
 h1 {
-  font-size: 1.4em;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: #ff3c4f;
+  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  letter-spacing: -0.07em;
   margin: 0;
   padding-bottom: 2em;
   padding-top: 2em; }
@@ -204,23 +203,23 @@ p {
         padding-right: 38px; } }
   .navigation .nav-inner-wrapper {
     padding-bottom: 30px;
-    border-bottom: 15px solid black; }
+    border-bottom: 1px solid black; }
     @media screen and (min-width: 670px) {
       .navigation .nav-inner-wrapper {
         padding-bottom: 33px;
-        border-bottom: 17px solid black; } }
+        border-bottom: 1px solid black; } }
     @media screen and (min-width: 900px) {
       .navigation .nav-inner-wrapper {
         padding-bottom: 36px;
-        border-bottom: 18px solid black; } }
+        border-bottom: 1px solid black; } }
     @media screen and (min-width: 1150px) {
       .navigation .nav-inner-wrapper {
         padding-bottom: 40px;
-        border-bottom: 20px solid black; } }
+        border-bottom: 1px solid black; } }
     @media screen and (min-width: 1500px) {
       .navigation .nav-inner-wrapper {
         padding-bottom: 42px;
-        border-bottom: 20px solid black; } }
+        border-bottom: 1px solid black; } }
   .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -293,50 +292,24 @@ button.close-button {
 
 /* The footer styles
 ----------------------------------------------------------------------------- */
+/*
+
 .sticky-footer {
-  height: 65px;
-  background-color: #fbfbfb;
+  @include footer-height;
+  background-color: $theme-background;
   position: fixed;
   bottom: 0;
   width: 100%;
-  visibility: hidden; }
-  @media screen and (min-width: 670px) {
-    .sticky-footer {
-      height: 74px; } }
-  @media screen and (min-width: 900px) {
-    .sticky-footer {
-      height: 81px; } }
-  @media screen and (min-width: 1150px) {
-    .sticky-footer {
-      height: 92px; } }
-  @media screen and (min-width: 1500px) {
-    .sticky-footer {
-      height: 100px; } }
-  @media screen and (min-width: 670px) {
-    .sticky-footer {
-      visibility: visible; } }
+  visibility: hidden;
+    @include breakpoint(small)  {visibility: visible;}
+}
 .sticky-footer-inner-1 {
-  padding-left: 20px;
-  padding-right: 20px; }
-  @media screen and (min-width: 670px) {
-    .sticky-footer-inner-1 {
-      padding-left: 24px;
-      padding-right: 24px; } }
-  @media screen and (min-width: 900px) {
-    .sticky-footer-inner-1 {
-      padding-left: 27px;
-      padding-right: 27px; } }
-  @media screen and (min-width: 1150px) {
-    .sticky-footer-inner-1 {
-      padding-left: 32px;
-      padding-right: 32px; } }
-  @media screen and (min-width: 1500px) {
-    .sticky-footer-inner-1 {
-      padding-left: 38px;
-      padding-right: 38px; } }
+  @include margins-horiz;
+}
 .sticky-footer-inner-2 {
-  border-top: 20px solid #000; }
-
+  border-top: 20px solid #000;
+}
+*/
 /*
 Add styles for each of the page types
 that are not covered elswhere
@@ -582,7 +555,7 @@ To do:
       margin-top: 92px; } }
   @media screen and (min-width: 1500px) {
     .go-to {
-      margin-top: 100px; } }
+      margin-top: 81px; } }
   @media screen and (min-width: 670px) {
     .go-to {
       padding-top: 12px;
