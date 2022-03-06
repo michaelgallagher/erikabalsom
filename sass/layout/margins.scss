@@ -42,10 +42,10 @@ $footer-height-huge:   100px;
 // Left and right margins -- the normal thing
 @mixin margins-horiz {
 	padding-left: $margin-tiny; padding-right: $margin-tiny;
-	@include breakpoint(small)  {padding-left: $margin-small;  padding-right: $margin-small;}
-	@include breakpoint(medium) {padding-left: $margin-medium; padding-right: $margin-medium;}
-	@include breakpoint(large)  {padding-left: $margin-large;  padding-right: $margin-large;}
-	@include breakpoint(huge)   {padding-left: $margin-huge;   padding-right: $margin-huge;}
+	@include breakpoint(small)  {padding-left: $margin-small*2;  padding-right: $margin-small*2;}
+	@include breakpoint(medium) {padding-left: $margin-medium*3; padding-right: $margin-medium*3;}
+	@include breakpoint(large)  {padding-left: $margin-large*3;  padding-right: $margin-large*3;}
+	@include breakpoint(huge)   {padding-left: $margin-huge*4;   padding-right: $margin-huge*4;}
 }
 // Single margins
 @mixin margin-horiz-left {

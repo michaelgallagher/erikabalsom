@@ -42,7 +42,7 @@ html, body {
   background-color: #ff1538; }
 
 .red {
-  color: #ff3c4f; }
+  color: #ac21fd; }
 
 /* Horizontal margins
 ----------------------------------------------------------------------------- */
@@ -53,23 +53,23 @@ html, body {
   padding-right: 20px;
   padding-top: 120px;
   margin-bottom: 130px; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .content {
-      padding-left: 24px;
-      padding-right: 24px; } }
+      padding-left: 48px;
+      padding-right: 48px; } }
   @media screen and (min-width: 900px) {
     .content {
-      padding-left: 27px;
-      padding-right: 27px; } }
+      padding-left: 81px;
+      padding-right: 81px; } }
   @media screen and (min-width: 1150px) {
     .content {
-      padding-left: 32px;
-      padding-right: 32px; } }
+      padding-left: 96px;
+      padding-right: 96px; } }
   @media screen and (min-width: 1500px) {
     .content {
-      padding-left: 38px;
-      padding-right: 38px; } }
-  @media screen and (min-width: 670px) {
+      padding-left: 152px;
+      padding-right: 152px; } }
+  @media screen and (min-width: 720px) {
     .content {
       padding-top: 168px; } }
   @media screen and (min-width: 900px) {
@@ -81,7 +81,7 @@ html, body {
   @media screen and (min-width: 1500px) {
     .content {
       padding-top: 266px; } }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .content {
       margin-bottom: 148px; } }
   @media screen and (min-width: 900px) {
@@ -95,7 +95,7 @@ html, body {
       margin-bottom: 200px; } }
 .articles .content {
   padding-top: 203px; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .articles .content {
       padding-top: 168px; } }
   @media screen and (min-width: 900px) {
@@ -123,7 +123,7 @@ body {
   line-height: 1.8;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     body {
       font-size: 14px; } }
   @media screen and (min-width: 900px) {
@@ -165,12 +165,12 @@ p {
   z-index: 100;
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   padding-top: 20px;
-  background-color: #fbfbfb;
+  background-color: #f8f8f4;
   overflow: hidden;
   position: fixed;
   width: 100%;
   top: 0; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .navigation {
       padding-top: 24px; } }
   @media screen and (min-width: 900px) {
@@ -185,26 +185,26 @@ p {
   .navigation .nav-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
-    @media screen and (min-width: 670px) {
+    @media screen and (min-width: 720px) {
       .navigation .nav-wrapper {
-        padding-left: 24px;
-        padding-right: 24px; } }
+        padding-left: 48px;
+        padding-right: 48px; } }
     @media screen and (min-width: 900px) {
       .navigation .nav-wrapper {
-        padding-left: 27px;
-        padding-right: 27px; } }
+        padding-left: 81px;
+        padding-right: 81px; } }
     @media screen and (min-width: 1150px) {
       .navigation .nav-wrapper {
-        padding-left: 32px;
-        padding-right: 32px; } }
+        padding-left: 96px;
+        padding-right: 96px; } }
     @media screen and (min-width: 1500px) {
       .navigation .nav-wrapper {
-        padding-left: 38px;
-        padding-right: 38px; } }
+        padding-left: 152px;
+        padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
     padding-bottom: 30px;
     border-bottom: 1px solid black; }
-    @media screen and (min-width: 670px) {
+    @media screen and (min-width: 720px) {
       .navigation .nav-inner-wrapper {
         padding-bottom: 33px;
         border-bottom: 1px solid black; } }
@@ -227,32 +227,35 @@ p {
   .navigation li {
     list-style: inline;
     float: left;
-    padding-right: 25px;
+    padding-right: 18px;
     display: block; }
+    @media screen and (min-width: 900px) {
+      .navigation li {
+        padding-right: 25px; } }
   .navigation li a {
     color: #000;
     text-decoration: none;
     text-align: center; }
   .navigation li a:hover {
-    color: #0077ff; }
+    color: #00d459; }
   .navigation li.nav-name {
     padding-right: 50px; }
   .navigation .nav-item {
     color: #999; }
   .navigation .nav-current {
     color: #000; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .navigation .tiny-title {
       display: none; } }
   .navigation .menu-button {
     float: right;
     padding-right: 0; }
-    @media screen and (min-width: 670px) {
+    @media screen and (min-width: 720px) {
       .navigation .menu-button {
         display: none; } }
   .navigation .hide-small {
     display: none; }
-    @media screen and (min-width: 670px) {
+    @media screen and (min-width: 720px) {
       .navigation .hide-small {
         display: block; } }
 .pushy li {
@@ -269,7 +272,7 @@ button {
   border: none;
   padding: 5px 0px 0px 0px;
   text-align: center; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     button {
       font-size: 14px; } }
   @media screen and (min-width: 900px) {
@@ -282,10 +285,10 @@ button {
     button {
       font-size: 16px; } }
 button.menu-button {
-  background-color: #fbfbfb; }
+  background-color: #f8f8f4; }
 
 button.close-button {
-  background-color: #0077ff;
+  background-color: #00d459;
   float: right; }
   button.close-button:hover {
     color: #fff; }
@@ -315,7 +318,7 @@ Add styles for each of the page types
 that are not covered elswhere
 */
 html {
-  background-color: #fbfbfb; }
+  background-color: #f8f8f4; }
 
 /*
 To do:
@@ -336,27 +339,27 @@ To do:
   height: 100%;
   top: 0;
   z-index: 9999;
-  background: #0077ff;
+  background: #00d459;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */ }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .pushy {
-      padding-left: 24px;
-      padding-right: 24px; } }
+      padding-left: 48px;
+      padding-right: 48px; } }
   @media screen and (min-width: 900px) {
     .pushy {
-      padding-left: 27px;
-      padding-right: 27px; } }
+      padding-left: 81px;
+      padding-right: 81px; } }
   @media screen and (min-width: 1150px) {
     .pushy {
-      padding-left: 32px;
-      padding-right: 32px; } }
+      padding-left: 96px;
+      padding-right: 96px; } }
   @media screen and (min-width: 1500px) {
     .pushy {
-      padding-left: 38px;
-      padding-right: 38px; } }
-  @media screen and (min-width: 670px) {
+      padding-left: 152px;
+      padding-right: 152px; } }
+  @media screen and (min-width: 720px) {
     .pushy {
       padding-top: 24px;
       padding-bottom: 24px; } }
@@ -526,25 +529,25 @@ To do:
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   margin-top: 65px;
   padding-top: 12px;
-  color: #ff3c4f;
+  color: #ac21fd;
   position: absolute; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .go-to {
-      padding-left: 24px;
-      padding-right: 24px; } }
+      padding-left: 48px;
+      padding-right: 48px; } }
   @media screen and (min-width: 900px) {
     .go-to {
-      padding-left: 27px;
-      padding-right: 27px; } }
+      padding-left: 81px;
+      padding-right: 81px; } }
   @media screen and (min-width: 1150px) {
     .go-to {
-      padding-left: 32px;
-      padding-right: 32px; } }
+      padding-left: 96px;
+      padding-right: 96px; } }
   @media screen and (min-width: 1500px) {
     .go-to {
-      padding-left: 38px;
-      padding-right: 38px; } }
-  @media screen and (min-width: 670px) {
+      padding-left: 152px;
+      padding-right: 152px; } }
+  @media screen and (min-width: 720px) {
     .go-to {
       margin-top: 74px; } }
   @media screen and (min-width: 900px) {
@@ -556,7 +559,7 @@ To do:
   @media screen and (min-width: 1500px) {
     .go-to {
       margin-top: 81px; } }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .go-to {
       padding-top: 12px;
       position: fixed; } }
@@ -576,21 +579,21 @@ To do:
   .go-to li {
     padding-right: 25px;
     display: block; }
-    @media screen and (min-width: 670px) {
+    @media screen and (min-width: 720px) {
       .go-to li {
         list-style: inline;
         float: left; } }
   .go-to li a {
-    color: #ff3c4f;
+    color: #ac21fd;
     text-decoration: none;
     text-align: center; }
   .go-to li a:hover {
-    color: #0077ff; }
+    color: #00d459; }
 
 .go-to-heading {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-style: italic; }
-  @media screen and (min-width: 670px) {
+  @media screen and (min-width: 720px) {
     .go-to-heading {
       margin-top: -1px; } }
   @media screen and (min-width: 1150px) {
@@ -612,7 +615,7 @@ a.anchor {
     color: #999;
     text-decoration: underline; }
     .article a:hover {
-      color: #0077ff; }
+      color: #00d459; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
@@ -623,12 +626,12 @@ a.anchor {
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px; }
     .further a:hover {
-      color: #0077ff;
-      border-color: #0077ff;
+      color: #00d459;
+      border-color: #00d459;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .call-out {
-  color: #ff3c4f; }
+  color: #ac21fd; }
 
 .contributors,
 .contributor-list {
@@ -671,8 +674,8 @@ Add negative margin to accomodate the quotation mark
     border-bottom: 1px solid #999;
     padding-bottom: 1px; }
     .curating-explanation a:hover {
-      color: #0077ff;
-      border-color: #0077ff;
+      color: #00d459;
+      border-color: #00d459;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .screening-items {
@@ -682,7 +685,7 @@ Add negative margin to accomodate the quotation mark
     text-decoration: none;
     border-bottom: 1px solid #999; }
     .screening-items a:hover {
-      border-bottom: 1px solid #0077ff;
+      border-bottom: 1px solid #00d459;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .curating .content p {
@@ -693,12 +696,12 @@ Add negative margin to accomodate the quotation mark
   margin-top: 1em; }
 
 .ongoing-with-divider {
-  border-bottom: 1px solid #ff3c4f;
+  border-bottom: 1px solid #ac21fd;
   padding-bottom: 3em; }
 
 a.red-link {
-  color: #ff3c4f;
-  border-bottom: 1px solid #ff3c4f; }
+  color: #ac21fd;
+  border-bottom: 1px solid #ac21fd; }
 
 .teaching .content ul {
   margin: 1em 0 0 0;
@@ -730,8 +733,8 @@ a.red-link {
     text-decoration: none;
     border-bottom: 1px solid #bbb; }
     .about p a:hover {
-      color: #0077ff;
-      border-bottom-color: #0077ff;
+      color: #00d459;
+      border-bottom-color: #00d459;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,8 +31,9 @@
   li {
     list-style: inline;
     float: left;
-    padding-right: 25px;
+    padding-right: 18px;
     display: block;
+    @include breakpoint(medium) { padding-right: 25px; }
   }
   li a {
     color: #000;
