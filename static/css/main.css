@@ -165,11 +165,8 @@ p {
   z-index: 100;
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   padding-top: 20px;
-  background-color: #f8f8f4;
-  overflow: hidden;
   position: fixed;
-  width: 100%;
-  top: 0; }
+  width: 100%; }
   @media screen and (min-width: 720px) {
     .navigation {
       padding-top: 24px; } }
@@ -183,67 +180,35 @@ p {
     .navigation {
       padding-top: 38px; } }
   .navigation .nav-wrapper {
-    padding-left: 20px;
-    padding-right: 20px; }
-    @media screen and (min-width: 720px) {
-      .navigation .nav-wrapper {
-        padding-left: 48px;
-        padding-right: 48px; } }
-    @media screen and (min-width: 900px) {
-      .navigation .nav-wrapper {
-        padding-left: 81px;
-        padding-right: 81px; } }
-    @media screen and (min-width: 1150px) {
-      .navigation .nav-wrapper {
-        padding-left: 96px;
-        padding-right: 96px; } }
-    @media screen and (min-width: 1500px) {
-      .navigation .nav-wrapper {
-        padding-left: 152px;
-        padding-right: 152px; } }
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .navigation .nav-inner-wrapper {
-    padding-bottom: 30px;
-    border-bottom: 1px solid black; }
-    @media screen and (min-width: 720px) {
-      .navigation .nav-inner-wrapper {
-        padding-bottom: 33px;
-        border-bottom: 1px solid black; } }
-    @media screen and (min-width: 900px) {
-      .navigation .nav-inner-wrapper {
-        padding-bottom: 36px;
-        border-bottom: 1px solid black; } }
-    @media screen and (min-width: 1150px) {
-      .navigation .nav-inner-wrapper {
-        padding-bottom: 40px;
-        border-bottom: 1px solid black; } }
-    @media screen and (min-width: 1500px) {
-      .navigation .nav-inner-wrapper {
-        padding-bottom: 42px;
-        border-bottom: 1px solid black; } }
+    padding: 10px 16px 8px 16px;
+    background-color: #00d459;
+    border-radius: 5px; }
   .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0; }
   .navigation li {
     list-style: inline;
-    float: left;
-    padding-right: 18px;
-    display: block; }
+    display: inline-block;
+    padding-right: 18px; }
     @media screen and (min-width: 900px) {
       .navigation li {
         padding-right: 25px; } }
+    .navigation li:last-of-type {
+      padding-right: 0; }
   .navigation li a {
     color: #000;
-    text-decoration: none;
-    text-align: center; }
+    text-decoration: none; }
   .navigation li a:hover {
-    color: #00d459; }
-  .navigation li.nav-name {
-    padding-right: 50px; }
-  .navigation .nav-item {
-    color: #999; }
-  .navigation .nav-current {
     color: #000; }
+  .navigation .nav-item {
+    color: rgba(255, 255, 255, 0.7); }
+  .navigation .nav-current {
+    color: #fff; }
   @media screen and (min-width: 720px) {
     .navigation .tiny-title {
       display: none; } }
@@ -523,55 +488,39 @@ To do:
     -ms-transform: translateY(-50%) rotate(90deg);
     transform: translateY(-50%) rotate(90deg); }
 
-.go-to {
-  padding-left: 20px;
-  padding-right: 20px;
+.go-to-wrapper {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   margin-top: 65px;
-  padding-top: 12px;
-  color: #ac21fd;
-  position: absolute; }
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
   @media screen and (min-width: 720px) {
-    .go-to {
-      padding-left: 48px;
-      padding-right: 48px; } }
-  @media screen and (min-width: 900px) {
-    .go-to {
-      padding-left: 81px;
-      padding-right: 81px; } }
-  @media screen and (min-width: 1150px) {
-    .go-to {
-      padding-left: 96px;
-      padding-right: 96px; } }
-  @media screen and (min-width: 1500px) {
-    .go-to {
-      padding-left: 152px;
-      padding-right: 152px; } }
-  @media screen and (min-width: 720px) {
-    .go-to {
+    .go-to-wrapper {
       margin-top: 74px; } }
   @media screen and (min-width: 900px) {
-    .go-to {
+    .go-to-wrapper {
       margin-top: 81px; } }
   @media screen and (min-width: 1150px) {
-    .go-to {
+    .go-to-wrapper {
       margin-top: 92px; } }
   @media screen and (min-width: 1500px) {
-    .go-to {
-      margin-top: 81px; } }
-  @media screen and (min-width: 720px) {
-    .go-to {
-      padding-top: 12px;
-      position: fixed; } }
-  @media screen and (min-width: 900px) {
-    .go-to {
-      padding-top: 14px; } }
-  @media screen and (min-width: 1150px) {
-    .go-to {
-      padding-top: 17px; } }
-  @media screen and (min-width: 1500px) {
-    .go-to {
-      padding-top: 18px; } }
+    .go-to-wrapper {
+      margin-top: 90px; } }
+.go-to-inner {
+  padding: 10px 16px 8px 16px;
+  background-color: #ac21fd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.go-to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
   .go-to ul {
     list-style-type: none;
     margin: 0;
@@ -583,12 +532,14 @@ To do:
       .go-to li {
         list-style: inline;
         float: left; } }
+    .go-to li:last-of-type {
+      padding-right: 0; }
   .go-to li a {
-    color: #ac21fd;
+    color: #fff;
     text-decoration: none;
     text-align: center; }
   .go-to li a:hover {
-    color: #00d459; }
+    color: #000; }
 
 .go-to-heading {
   font-family: 'Libre Baskerville', Georgia, serif;

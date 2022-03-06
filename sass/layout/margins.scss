@@ -34,7 +34,7 @@ $footer-height-huge:   100px;
 	@include breakpoint(small)  {margin-top: 74px;}
 	@include breakpoint(medium) {margin-top: 81px;}
 	@include breakpoint(large)  {margin-top: 92px;}
-	@include breakpoint(huge)   {margin-top: 81px;}
+	@include breakpoint(huge)   {margin-top: 90px;}
 }
 
 /* Horizontal margins
@@ -50,10 +50,10 @@ $footer-height-huge:   100px;
 // Single margins
 @mixin margin-horiz-left {
 	padding-left: $margin-tiny;
-	@include breakpoint(small)  {padding-left: $margin-small;}
-	@include breakpoint(medium) {padding-left: $margin-medium;}
-	@include breakpoint(large)  {padding-left: $margin-large;}
-	@include breakpoint(huge)   {padding-left: $margin-huge;}
+	@include breakpoint(small)  {padding-left: $margin-small*2;}
+	@include breakpoint(medium) {padding-left: $margin-medium*3;}
+	@include breakpoint(large)  {padding-left: $margin-large*3;}
+	@include breakpoint(huge)   {padding-left: $margin-huge*4;}
 }
 @mixin margin-horiz-right {
 	padding-right: $margin-tiny;

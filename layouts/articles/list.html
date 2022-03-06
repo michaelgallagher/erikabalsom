@@ -4,14 +4,17 @@
 
   {{ partial "nav.html" . }}
 
-  <div class="go-to">
-    <ul>
-      <li class="go-to-heading">Go to:</li>
-      <li><a class="go-to-link" href="#journals-and-magazines">Journals & Magazines</a></li>
-      <li><a class="go-to-link" href="#edited-collections">Edited Collections</a></li>
-      <li><a class="go-to-link" href="#exhibition-catalogues">Exhibition Catalogues</a></li>
-    </ul>
-  </div>
+  <div class="go-to-wrapper">
+    <div class="go-to">
+      <div class="go-to-inner">
+        <ul>
+          <li><a class="go-to-link" href="#journals-and-magazines">Journals & Magazines</a></li>
+          <li><a class="go-to-link" href="#edited-collections">Edited Collections</a></li>
+          <li><a class="go-to-link" href="#exhibition-catalogues">Exhibition Catalogues</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> 
 
   <div class="content">
     {{ .Content }}
