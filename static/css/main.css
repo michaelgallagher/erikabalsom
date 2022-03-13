@@ -126,16 +126,16 @@ body {
   font-variant-ligatures: common-ligatures; }
   @media screen and (min-width: 720px) {
     body {
-      font-size: 14px; } }
+      font-size: 15px; } }
   @media screen and (min-width: 900px) {
     body {
-      font-size: 14px; } }
+      font-size: 16px; } }
   @media screen and (min-width: 1150px) {
     body {
-      font-size: 15px; } }
+      font-size: 17px; } }
   @media screen and (min-width: 1500px) {
     body {
-      font-size: 16px; } }
+      font-size: 18px; } }
 h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-weight: normal;
   font-size: 1em; }
@@ -240,16 +240,16 @@ button {
   text-align: center; }
   @media screen and (min-width: 720px) {
     button {
-      font-size: 14px; } }
+      font-size: 15px; } }
   @media screen and (min-width: 900px) {
     button {
-      font-size: 14px; } }
+      font-size: 16px; } }
   @media screen and (min-width: 1150px) {
     button {
-      font-size: 15px; } }
+      font-size: 17px; } }
   @media screen and (min-width: 1500px) {
     button {
-      font-size: 16px; } }
+      font-size: 18px; } }
 button.menu-button {
   background-color: #f8f8f4; }
 

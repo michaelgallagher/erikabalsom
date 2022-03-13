@@ -17,10 +17,10 @@
 ----------------------------------------------------------------------------- */
 
 $font-tiny:   13px;
-$font-small:  14px;
-$font-medium: 14px;
-$font-large:  15px;
-$font-huge:   16px;
+$font-small:  15px;
+$font-medium: 16px;
+$font-large:  17px;
+$font-huge:   18px;
 
 @mixin body-font {
 	font-size: $font-tiny;
