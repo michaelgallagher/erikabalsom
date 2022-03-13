@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap");
 html, body {
   margin: 0;
   padding: 0; }
@@ -563,16 +564,16 @@ a.anchor {
 .article {
   margin-bottom: 3em; }
   .article a {
-    color: #999;
+    color: #9e9b93;
     text-decoration: underline; }
     .article a:hover {
       color: #00d459; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
-  color: #999; }
+  color: #9e9b93; }
   .further a {
-    color: #999;
+    color: #9e9b93;
     text-decoration: none;
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px; }
@@ -622,7 +623,7 @@ Add negative margin to accomodate the quotation mark
   .curating-explanation a {
     color: #000;
     text-decoration: none;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #9e9b93;
     padding-bottom: 1px; }
     .curating-explanation a:hover {
       color: #00d459;
@@ -634,7 +635,7 @@ Add negative margin to accomodate the quotation mark
   .screening-items a {
     color: #000;
     text-decoration: none;
-    border-bottom: 1px solid #999; }
+    border-bottom: 1px solid #9e9b93; }
     .screening-items a:hover {
       border-bottom: 1px solid #00d459;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
