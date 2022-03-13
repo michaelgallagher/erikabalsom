@@ -7,32 +7,38 @@ $menu_width: 100% !default;
 
 /* Menu Appearance */
 .pushy{
-  @include margins-horiz;
-  @include margins-vert;
   position: fixed;
-  width: $menu_width;
-  height: 100%;
+  // @include margins-horiz;
+  // @include margins-vert;
+  padding: 6px 6px 0 0;
+  width: 66.66%;
   top: 0;
   z-index: 9999;
-  background: $accent-color-secondary;
   overflow: auto;
   -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
   ul {
     margin-top: 0px;
+    padding-left: 0px;
     @include romansque;
     list-style-type: none;
   }
-  li {list-style: inline;}
+  li {
+    list-style: none;
+    text-decoration: none;
+  }
   a {
       display: block;
-      color: #000;
+      color: #fff;
       margin-bottom: 36px;
       text-decoration: none;
   }
   a:hover {color: #fff;}
-  // ul:first-child {margin-top: 10px;}
   &.pushy-left {left: 0;}
   &.pushy-right {right: 0;}
+}
+.nav-pushy-wrapper {
+  background: rgb(0, 42, 156);
+  border-radius: 5px;
 }
 
 .pushy-content {visibility: hidden;}

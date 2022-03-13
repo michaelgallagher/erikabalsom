@@ -4,30 +4,32 @@
   @include go-to-top-margin;
   position: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 6px;
   width: 100%;
+  @include breakpoint(small)  {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .go-to-inner {
-  padding: 10px 16px 8px 16px;  
   background-color: $accent-color-primary;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 16px 0 16px;
+  @include breakpoint(small){
+    padding: 10px 16px 8px 16px;  
+  }
 }
 
 .go-to {
-  // position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // padding-top: 12px;
-    // @include breakpoint(small)  {padding-top: 12px; position: fixed;}
-    // @include breakpoint(medium) {padding-top: 14px;}
-    // @include breakpoint(large)  {padding-top: 17px;}
-    // @include breakpoint(huge)   {padding-top: 18px;}
+  @include breakpoint(small)  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   color: #fff;
   ul {
     list-style-type: none;
@@ -35,13 +37,22 @@
     padding: 0;
   }
   li {
-    padding-right: 25px;
     display: block;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    &:last-of-type {
+      border-bottom: none;
+    }
+    @include breakpoint(small) {
+      border-bottom: none;
+    }
+
     // changes the list type to be a row instead of a stack
     // on screens larger than phone-sized.
     @include breakpoint(small)  {
       list-style: inline;
       float: left;
+      padding: 0 25px 0 0;
     }
     &:last-of-type {
       padding-right: 0;

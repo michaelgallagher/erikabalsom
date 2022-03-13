@@ -165,25 +165,50 @@ p {
 .navigation {
   z-index: 100;
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
-  padding-top: 20px;
+  margin-top: 6px;
   position: fixed;
   width: 100%; }
   @media screen and (min-width: 720px) {
     .navigation {
+      padding-top: 20px; } }
+  @media screen and (min-width: 720px) and (min-width: 720px) {
+    .navigation {
       padding-top: 24px; } }
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 720px) and (min-width: 900px) {
     .navigation {
       padding-top: 27px; } }
-  @media screen and (min-width: 1150px) {
+  @media screen and (min-width: 720px) and (min-width: 1150px) {
     .navigation {
       padding-top: 32px; } }
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 720px) and (min-width: 1500px) {
     .navigation {
       padding-top: 38px; } }
   .navigation .nav-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    margin-left: 6px;
+    margin-right: 6px; }
+    @media screen and (min-width: 720px) {
+      .navigation .nav-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
+  @media screen and (min-width: 720px) and (min-width: 720px) {
+    .navigation .nav-wrapper {
+      padding-left: 48px;
+      padding-right: 48px; } }
+  @media screen and (min-width: 720px) and (min-width: 900px) {
+    .navigation .nav-wrapper {
+      padding-left: 81px;
+      padding-right: 81px; } }
+  @media screen and (min-width: 720px) and (min-width: 1150px) {
+    .navigation .nav-wrapper {
+      padding-left: 96px;
+      padding-right: 96px; } }
+  @media screen and (min-width: 720px) and (min-width: 1500px) {
+    .navigation .nav-wrapper {
+      padding-left: 152px;
+      padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
     padding: 10px 16px 8px 16px;
     background-color: #00d459;
@@ -194,8 +219,10 @@ p {
     padding: 0; }
   .navigation li {
     list-style: inline;
-    display: inline-block;
-    padding-right: 18px; }
+    display: inline-block; }
+    @media screen and (min-width: 720px) {
+      .navigation li {
+        padding-right: 18px; } }
     @media screen and (min-width: 900px) {
       .navigation li {
         padding-right: 25px; } }
@@ -225,18 +252,18 @@ p {
       .navigation .hide-small {
         display: block; } }
 .pushy li {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  padding: 16px 0 18px 0;
-  height: 19px; }
-  .pushy li:first-of-type {
-    margin-top: 105px;
-    border-top: 1px solid rgba(0, 0, 0, 0.15); }
+  padding: 10px 18px 12px 18px;
+  height: 19px;
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+  .pushy li:last-of-type {
+    border-bottom: none; }
 
 button {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
   font-size: 13px;
   border: none;
-  padding: 5px 0px 0px 0px;
+  padding: 4px 0px 0px 0px;
   text-align: center; }
   @media screen and (min-width: 720px) {
     button {
@@ -251,10 +278,13 @@ button {
     button {
       font-size: 18px; } }
 button.menu-button {
-  background-color: #f8f8f4; }
+  background-color: #00d459; }
 
 button.close-button {
-  background-color: #00d459;
+  background-color: transparent;
+  color: white;
+  padding: 14px 16px 14px 16px;
+  border-radius: 5px;
   float: right; }
   button.close-button:hover {
     color: #fff; }
@@ -296,60 +326,25 @@ To do:
 * by Christopher Yee */
 /* Menu Appearance */
 .pushy {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   position: fixed;
-  width: 100%;
-  height: 100%;
+  padding: 6px 6px 0 0;
+  width: 66.66%;
   top: 0;
   z-index: 9999;
-  background: #00d459;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */ }
-  @media screen and (min-width: 720px) {
-    .pushy {
-      padding-left: 48px;
-      padding-right: 48px; } }
-  @media screen and (min-width: 900px) {
-    .pushy {
-      padding-left: 81px;
-      padding-right: 81px; } }
-  @media screen and (min-width: 1150px) {
-    .pushy {
-      padding-left: 96px;
-      padding-right: 96px; } }
-  @media screen and (min-width: 1500px) {
-    .pushy {
-      padding-left: 152px;
-      padding-right: 152px; } }
-  @media screen and (min-width: 720px) {
-    .pushy {
-      padding-top: 24px;
-      padding-bottom: 24px; } }
-  @media screen and (min-width: 900px) {
-    .pushy {
-      padding-top: 27px;
-      padding-bottom: 27px; } }
-  @media screen and (min-width: 1150px) {
-    .pushy {
-      padding-top: 32px;
-      padding-bottom: 32px; } }
-  @media screen and (min-width: 1500px) {
-    .pushy {
-      padding-top: 38px;
-      padding-bottom: 38px; } }
   .pushy ul {
     margin-top: 0px;
+    padding-left: 0px;
     font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
     list-style-type: none; }
   .pushy li {
-    list-style: inline; }
+    list-style: none;
+    text-decoration: none; }
   .pushy a {
     display: block;
-    color: #000;
+    color: #fff;
     margin-bottom: 36px;
     text-decoration: none; }
   .pushy a:hover {
@@ -358,6 +353,10 @@ To do:
     left: 0; }
   .pushy.pushy-right {
     right: 0; }
+
+.nav-pushy-wrapper {
+  background: #002a9c;
+  border-radius: 5px; }
 
 .pushy-content {
   visibility: hidden; }
@@ -491,48 +490,62 @@ To do:
 
 .go-to-wrapper {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
-  margin-top: 65px;
+  margin-top: 52px;
   position: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 6px;
   width: 100%; }
   @media screen and (min-width: 720px) {
     .go-to-wrapper {
-      margin-top: 74px; } }
+      margin-top: 80px; } }
   @media screen and (min-width: 900px) {
     .go-to-wrapper {
-      margin-top: 81px; } }
+      margin-top: 85px; } }
   @media screen and (min-width: 1150px) {
     .go-to-wrapper {
       margin-top: 92px; } }
   @media screen and (min-width: 1500px) {
     .go-to-wrapper {
-      margin-top: 90px; } }
+      margin-top: 100px; } }
+  @media screen and (min-width: 720px) {
+    .go-to-wrapper {
+      justify-content: center;
+      align-items: center; } }
 .go-to-inner {
-  padding: 10px 16px 8px 16px;
   background-color: #ac21fd;
   border-radius: 5px;
   display: flex;
   justify-content: center;
-  align-items: center; }
-
-.go-to {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 0 16px 0 16px; }
+  @media screen and (min-width: 720px) {
+    .go-to-inner {
+      padding: 10px 16px 8px 16px; } }
+.go-to {
   color: #fff; }
+  @media screen and (min-width: 720px) {
+    .go-to {
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
   .go-to ul {
     list-style-type: none;
     margin: 0;
     padding: 0; }
   .go-to li {
-    padding-right: 25px;
-    display: block; }
+    display: block;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+    .go-to li:last-of-type {
+      border-bottom: none; }
+    @media screen and (min-width: 720px) {
+      .go-to li {
+        border-bottom: none; } }
     @media screen and (min-width: 720px) {
       .go-to li {
         list-style: inline;
-        float: left; } }
+        float: left;
+        padding: 0 25px 0 0; } }
     .go-to li:last-of-type {
       padding-right: 0; }
   .go-to li a {
