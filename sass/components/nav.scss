@@ -35,11 +35,9 @@
   li {
     list-style: inline;
     display: inline-block;
-    @include breakpoint(small) { padding-right: 18px; }
-    @include breakpoint(medium) { padding-right: 25px; }
-    &:last-of-type {
-      padding-right: 0;
-    }
+    @include breakpoint(small) { padding-right: 10px; }
+    @include breakpoint(medium) { padding-right: 18px; }
+    &:last-of-type {padding-right: 0;}
   }
   li a {
     color: #000;
@@ -76,7 +74,7 @@
     // padding: 6px 0 6px 0;
   }
   li {
-    padding: 10px 18px 12px 18px;
+    padding: 10px 16px 12px 16px;
     height: 19px;
     list-style: none;
     border-bottom: 1px solid rgba(255,255,255,0.15);

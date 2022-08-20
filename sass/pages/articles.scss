@@ -9,6 +9,7 @@
   @include breakpoint(small)  {
     justify-content: center;
     align-items: center;
+    margin-left: 0;
   }
 }
 
@@ -18,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 16px 0 16px;
+  padding: 0;
   @include breakpoint(small){
     padding: 10px 16px 8px 16px;  
   }
@@ -38,25 +39,20 @@
   }
   li {
     display: block;
-    padding: 10px 0 10px 0;
+    padding: 10px 16px 10px 16px;
     border-bottom: 1px solid rgba(255,255,255,0.15);
-    &:last-of-type {
-      border-bottom: none;
-    }
-    @include breakpoint(small) {
-      border-bottom: none;
-    }
+    &:last-of-type {border-bottom: none;}
+    @include breakpoint(small) {border-bottom: none;}
 
     // changes the list type to be a row instead of a stack
     // on screens larger than phone-sized.
     @include breakpoint(small)  {
       list-style: inline;
       float: left;
-      padding: 0 25px 0 0;
+      padding: 0 18px 0 0;
     }
-    &:last-of-type {
-      padding-right: 0;
-    }
+    @include breakpoint(medium)  {padding: 0 26px 0 0;}
+    &:last-of-type {padding-right: 0;}
   }
   li a {
     color: #fff;
@@ -86,8 +82,12 @@ to accomodate the fixed page header
 a.anchor {
     display: block;
     position: relative;
-    top: -230px; // TODO: change for different breakpoints
+    top: -342px; // TODO: change for different breakpoints
     visibility: hidden;
+    @include breakpoint(small)  {top: -307px;}
+    @include breakpoint(medium) {top: -338px;}
+    @include breakpoint(large)  {top: -353px;}
+    @include breakpoint(huge)   {top: -404px;}
 }
 
 .article {
