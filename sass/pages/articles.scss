@@ -96,7 +96,7 @@ a.anchor {
     color: $theme-faded;
     text-decoration: underline;
     &:hover {
-      color: $accent-color-secondary;
+      color: $accent-color-tertiary;
     }
   }
 }
@@ -110,8 +110,8 @@ a.anchor {
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px;
     &:hover {
-      color: $accent-color-secondary;
-      border-color: $accent-color-secondary;
+      color: $accent-color-tertiary;
+      border-color: $accent-color-tertiary;
       transition: color 0.2s ease, border-bottom-color 0.2s ease;
     }
   }

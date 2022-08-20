@@ -580,7 +580,7 @@ a.anchor {
     color: #9e9b93;
     text-decoration: underline; }
     .article a:hover {
-      color: #00d459; }
+      color: #ff5500; }
 
 .further {
   font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
@@ -591,8 +591,8 @@ a.anchor {
     border-bottom: 1px solid #ddd;
     padding-bottom: 1px; }
     .further a:hover {
-      color: #00d459;
-      border-color: #00d459;
+      color: #ff5500;
+      border-color: #ff5500;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .call-out {
@@ -639,8 +639,8 @@ Add negative margin to accomodate the quotation mark
     border-bottom: 1px solid #9e9b93;
     padding-bottom: 1px; }
     .curating-explanation a:hover {
-      color: #00d459;
-      border-color: #00d459;
+      color: #ff5500;
+      border-color: #ff5500;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .screening-items {
@@ -650,7 +650,7 @@ Add negative margin to accomodate the quotation mark
     text-decoration: none;
     border-bottom: 1px solid #9e9b93; }
     .screening-items a:hover {
-      border-bottom: 1px solid #00d459;
+      border-bottom: 1px solid #ff5500;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 .curating .content p {
@@ -698,8 +698,8 @@ a.red-link {
     text-decoration: none;
     border-bottom: 1px solid #bbb; }
     .about p a:hover {
-      color: #00d459;
-      border-bottom-color: #00d459;
+      color: #ff5500;
+      border-bottom-color: #ff5500;
       transition: color 0.2s ease, border-bottom-color 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */
