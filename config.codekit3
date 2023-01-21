@@ -695,7 +695,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/footer.css",
+		"oAP": "/sass/components/footer.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -708,7 +708,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/nav.css",
+		"oAP": "/sass/components/nav.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -721,7 +721,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/pages.css",
+		"oAP": "/sass/components/pages.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -734,7 +734,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/pushy.css",
+		"oAP": "/sass/components/pushy.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -747,7 +747,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/breakpoints.css",
+		"oAP": "/sass/foundation/breakpoints.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -760,7 +760,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/defaults.css",
+		"oAP": "/sass/foundation/defaults.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -773,7 +773,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/fonts.css",
+		"oAP": "/sass/foundation/fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -786,7 +786,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/colors.css",
+		"oAP": "/sass/layout/colors.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -799,7 +799,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/grid.css",
+		"oAP": "/sass/layout/grid.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -812,7 +812,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/margins.css",
+		"oAP": "/sass/layout/margins.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -825,7 +825,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/typography.css",
+		"oAP": "/sass/layout/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -851,7 +851,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/about.css",
+		"oAP": "/sass/pages/about.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -864,7 +864,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/articles.css",
+		"oAP": "/sass/pages/articles.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -877,7 +877,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/criticism.css",
+		"oAP": "/sass/pages/criticism.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -890,7 +890,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/curating.css",
+		"oAP": "/sass/pages/curating.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -903,7 +903,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/static/css/teaching.css",
+		"oAP": "/sass/pages/teaching.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -3222,10 +3222,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../static/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"compilerType": 1,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
