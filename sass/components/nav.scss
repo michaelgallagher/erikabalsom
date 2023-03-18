@@ -1,22 +1,26 @@
 .navigation {
   z-index: 100;
-  @include romansque;
-  margin-top: 6px;
+  // @include romansque;
+  // margin-top: 6px;
   position: fixed;
   width: 100%;
   @include breakpoint(small) {
-    @include margin-vert-top;
+    // @include margin-vert-top;
+    margin-top: 10px;
   }
 
   // The outer wrapper provides the margins
   .nav-wrapper { 
-    margin-left: 6px;
-    margin-right: 6px;
+    // margin-left: 6px;
+    // margin-right: 6px;
     @include breakpoint(small) {
-      @include margins-horiz;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      // @include margins-horiz;
+      // display: flex;
+      // width: 100%;
+      // justify-content: center;
+      align-items: left;
     }
   }
 

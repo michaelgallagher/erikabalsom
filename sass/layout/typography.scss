@@ -39,7 +39,8 @@ $font-huge:   18px;
 
 body {
   //@include sans-roman;
-  @include baskerville;
+//   @include baskerville;
+  font-family: -apple-system-ui-serif, ui-serif, 'Georgia', serif;;
   @include body-font;
   line-height: 1.8;
   text-rendering: optimizeLegibility;
@@ -52,9 +53,11 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 }
 
 h1 {
-	@include romansque;
-	font-size: 2em;
-	letter-spacing: -0.07em;
+	// @include romansque;
+	font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	// letter-spacing: -0.02em;
 	// letter-spacing: 0.07em;
 	// text-transform: uppercase;
 	// color: $accent-color-primary;

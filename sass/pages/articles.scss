@@ -91,7 +91,9 @@ a.anchor {
 }
 
 .article {
-  margin-bottom: 3em;
+  margin-bottom: 1.25em;
+  padding-bottom: 1.25em;  
+  border-bottom: 1px solid $theme-pale;
   a {
     color: $theme-faded;
     text-decoration: underline;
@@ -102,7 +104,10 @@ a.anchor {
 }
 
 .further {
-  @include romansque;
+  // @include romansque;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  // font-size: 1.07em;
+  letter-spacing: 0.02em;
   color: $theme-faded;
   a {
     color: $theme-faded;
