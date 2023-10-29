@@ -48,6 +48,15 @@
 	margin-top: 1em;
 }
 
+.extra-bottom-space {
+	margin-bottom: 1em;
+}
+
+.quote {
+	border-left: 1px solid $theme-faded;
+	padding-left: 1.25em;
+}
+
 .ongoing-with-divider {
 	border-bottom: 1px solid $accent-color-primary;
 	padding-bottom: 3em;

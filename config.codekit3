@@ -17,6 +17,14 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.hugo_build.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.hugo_build.lock",
+		"oF": 0
+		},
 	"/config.toml": {
 		"cB": 0,
 		"ft": 8192,

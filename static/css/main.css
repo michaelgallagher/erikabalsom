@@ -674,6 +674,13 @@ Add negative margin to accomodate the quotation mark
 .extra-top-space {
   margin-top: 1em; }
 
+.extra-bottom-space {
+  margin-bottom: 1em; }
+
+.quote {
+  border-left: 1px solid #9e9b93;
+  padding-left: 1.25em; }
+
 .ongoing-with-divider {
   border-bottom: 1px solid #ac21fd;
   padding-bottom: 3em; }
