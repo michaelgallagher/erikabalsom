@@ -142,12 +142,11 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 
 h1 {
   font-weight: bold;
-  font-size: 2em;
-  margin: 0;
-  padding-bottom: 2em;
-  padding-top: 2em; }
-  h1:first-of-type {
-    padding-top: 0; }
+  border: 3px solid black;
+  background-color: white;
+  margin: 0 0 4em 0;
+  padding: 10px 24px 12px 24px;
+  display: inline-block; }
 
 p {
   margin-top: 0;
@@ -211,9 +210,10 @@ p {
       padding-left: 152px;
       padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
-    padding: 10px 16px 8px 16px;
-    background-color: #00d459;
-    border-radius: 5px; }
+    padding: 10px 24px 11px 24px;
+    background-color: #e4f8ec;
+    border: 3px solid black;
+    border-radius: 0px; }
   .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -235,9 +235,9 @@ p {
   .navigation li a:hover {
     color: #000; }
   .navigation .nav-item {
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(0, 0, 0, 0.5); }
   .navigation .nav-current {
-    color: #fff; }
+    color: #000; }
   @media screen and (min-width: 750px) {
     .navigation .tiny-title {
       display: none; } }
@@ -287,7 +287,7 @@ button.close-button {
   background-color: transparent;
   color: white;
   padding: 14px 16px 14px 16px;
-  border-radius: 5px;
+  border-radius: 0px;
   float: right; }
   button.close-button:hover {
     color: #fff; }
@@ -361,7 +361,7 @@ To do:
 
 .nav-pushy-wrapper {
   background: #002a9c;
-  border-radius: 5px; }
+  border-radius: 30px; }
 
 .pushy-content {
   visibility: hidden; }
@@ -513,24 +513,25 @@ To do:
       margin-top: 92px; } }
   @media screen and (min-width: 1500px) {
     .go-to-wrapper {
-      margin-top: 100px; } }
+      margin-top: 103px; } }
   @media screen and (min-width: 750px) {
     .go-to-wrapper {
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
 .go-to-inner {
-  background-color: #ac21fd;
-  border-radius: 5px;
+  background-color: #eef5fb;
+  border: 3px solid black;
+  border-radius: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0; }
   @media screen and (min-width: 750px) {
     .go-to-inner {
-      padding: 10px 16px 8px 16px; } }
+      padding: 10px 24px 12px 24px; } }
 .go-to {
-  color: #fff; }
+  color: #000; }
   @media screen and (min-width: 750px) {
     .go-to {
       display: flex;
@@ -560,7 +561,7 @@ To do:
     .go-to li:last-of-type {
       padding-right: 0; }
   .go-to li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-align: center; }
   .go-to li a:hover {

@@ -59,16 +59,20 @@ h1 {
 	// @include romansque;
 	// font-family: Helvetica, sans-serif;
 	font-weight: bold;
-	font-size: 2em;
+	// font-size: 1.5em;
+	border: 3px solid black;
+	background-color: white;
 	// letter-spacing: -0.07em;
 	// letter-spacing: 0.07em;
 	// text-transform: uppercase;
 	// color: $accent-color-primary;
-	margin: 0;
-	padding-bottom: 2em;
-	padding-top: 2em;
+	margin: 0 0 4em 0;
+	padding: 10px 24px 12px 24px;
+	display: inline-block;
+	// padding-bottom: 2em;
+	// padding-top: 2em;
 	&:first-of-type {
-		padding-top: 0;
+		// padding-top: 0;
 	}
 }
 

@@ -22,9 +22,10 @@
 
   // The inner wrapper provides the bottom rule
   .nav-inner-wrapper {
-    padding: 10px 16px 8px 16px;  
-    background-color: $accent-color-secondary;
-    border-radius: 5px;
+    padding: 10px 24px 11px 24px;  
+    background-color: #e4f8ec;
+    border: 3px solid black;
+    border-radius: 0px;
   }
 
   ul {
@@ -50,8 +51,8 @@
     // padding-right: 50px;
   }
 
-  .nav-item {color: rgba(255,255,255,0.7);}
-  .nav-current {color: #fff;}
+  .nav-item {color: rgba(0,0,0,0.5);}
+  .nav-current {color: #000;}
 
   .tiny-title {
     @include breakpoint(small)  {display: none;}
@@ -99,7 +100,7 @@ button.close-button {
   color: white;
   // margin: 6px 6px 0 0;
   padding: 14px 16px 14px 16px;  
-  border-radius: 5px;
+  border-radius: 0px;
   float: right;
   &:hover {
     color: #fff;
