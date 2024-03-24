@@ -50,26 +50,8 @@ html, body {
 /* Vertical margins -- normal
 ----------------------------------------------------------------------------- */
 .content {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 120px;
   margin-bottom: 130px; }
-  @media screen and (min-width: 750px) {
-    .content {
-      padding-left: 48px;
-      padding-right: 48px; } }
-  @media screen and (min-width: 920px) {
-    .content {
-      padding-left: 81px;
-      padding-right: 81px; } }
-  @media screen and (min-width: 1150px) {
-    .content {
-      padding-left: 96px;
-      padding-right: 96px; } }
-  @media screen and (min-width: 1500px) {
-    .content {
-      padding-left: 152px;
-      padding-right: 152px; } }
   @media screen and (min-width: 750px) {
     .content {
       padding-top: 192px; } }
@@ -144,8 +126,8 @@ h1 {
   font-weight: bold;
   border: 3px solid black;
   background-color: white;
-  margin: 0 0 4em 0;
-  padding: 10px 24px 12px 24px;
+  margin: 0 0 2em 0;
+  padding: 7.5px 20px 9.5px 20px;
   display: inline-block; }
 
 p {
@@ -210,7 +192,7 @@ p {
       padding-left: 152px;
       padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
-    padding: 10px 24px 11px 24px;
+    padding: 10px 20px 11px 20px;
     background-color: #e4f8ec;
     border: 3px solid black;
     border-radius: 0px; }
@@ -633,19 +615,38 @@ a.anchor {
 .excerpted, .contributor-list {
   padding-left: 2.5em; }
 
+.criticism .content h1 {
+  margin-left: 44px;
+  margin-right: 44px; }
+
 .criticism .content p {
-  margin-top: 1em; }
+  padding-top: 0.72em;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding-bottom: 0.75em;
+  padding-left: 44px;
+  padding-right: 44px; }
 
 .criticism .content p:first-of-type {
-  margin-top: 0; }
+  margin-top: 0;
+  border-top: none; }
 
 .criticism .content .excerpted-in {
-  margin-top: 0; }
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em; }
 
 .criticism .content .excerpted {
   margin-top: 0; }
   .criticism .content .excerpted p {
-    margin-top: 0; }
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: none; }
+    .criticism .content .excerpted p:last-of-type {
+      padding-bottom: 0.75em; }
 
 /*
 Add negative margin to accomodate the quotation mark

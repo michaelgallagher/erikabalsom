@@ -1,5 +1,7 @@
 .content {
-  @include margins-horiz;
+  // @include margins-horiz;
+  // padding-left: 10px;
+  // padding-right: 10px;
   @include margin-vert-top-lead;
   @include margin-vert-bottom-final;
 }
