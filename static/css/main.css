@@ -616,19 +616,27 @@ a.anchor {
   padding-left: 2.5em; }
 
 .criticism .content h1 {
-  margin-left: 44px;
-  margin-right: 44px; }
+  margin-left: 40px;
+  margin-right: 40px; }
 
 .criticism .content p {
   padding-top: 0.72em;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
   padding-bottom: 0.75em;
-  padding-left: 44px;
-  padding-right: 44px; }
+  padding-left: 40px;
+  padding-right: 40px; }
 
-.criticism .content p:first-of-type {
-  margin-top: 0;
-  border-top: none; }
+.criticism .content ul {
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.criticism .content li {
+  list-style-type: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 10px 40px 12px 40px; }
+  .criticism .content li:first-of-type {
+    border-top: none; }
 
 .criticism .content .excerpted-in {
   margin-top: 0;
@@ -645,8 +653,6 @@ a.anchor {
     padding-top: 0;
     padding-bottom: 0;
     border-top: none; }
-    .criticism .content .excerpted p:last-of-type {
-      padding-bottom: 0.75em; }
 
 /*
 Add negative margin to accomodate the quotation mark
