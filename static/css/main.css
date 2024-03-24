@@ -119,31 +119,30 @@ html, body {
    All of that stuff goes in the CSS for each kind of page
 ----------------------------------------------------------------------------- */
 body {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-size: 13px;
+  font-family: 'Times New Roman', Georgia, serif;
+  font-size: 18px;
   line-height: 1.8;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures; }
   @media screen and (min-width: 750px) {
     body {
-      font-size: 15px; } }
+      font-size: 19px; } }
   @media screen and (min-width: 920px) {
     body {
-      font-size: 16px; } }
+      font-size: 20px; } }
   @media screen and (min-width: 1150px) {
     body {
-      font-size: 17px; } }
+      font-size: 21px; } }
   @media screen and (min-width: 1500px) {
     body {
-      font-size: 18px; } }
+      font-size: 22px; } }
 h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
   font-weight: normal;
   font-size: 1em; }
 
 h1 {
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-weight: bold;
   font-size: 2em;
-  letter-spacing: -0.07em;
   margin: 0;
   padding-bottom: 2em;
   padding-top: 2em; }
@@ -164,7 +163,9 @@ p {
 
 .navigation {
   z-index: 100;
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
   margin-top: 6px;
   position: fixed;
   width: 100%; }
@@ -260,23 +261,25 @@ p {
     border-bottom: none; }
 
 button {
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+  font-size: 18px;
   border: none;
   padding: 4px 0px 0px 0px;
   text-align: center; }
   @media screen and (min-width: 750px) {
     button {
-      font-size: 15px; } }
+      font-size: 19px; } }
   @media screen and (min-width: 920px) {
     button {
-      font-size: 16px; } }
+      font-size: 20px; } }
   @media screen and (min-width: 1150px) {
     button {
-      font-size: 17px; } }
+      font-size: 21px; } }
   @media screen and (min-width: 1500px) {
     button {
-      font-size: 18px; } }
+      font-size: 22px; } }
 button.menu-button {
   background-color: #00d459; }
 
@@ -337,7 +340,9 @@ To do:
   .pushy ul {
     margin-top: 0px;
     padding-left: 0px;
-    font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.02em;
     list-style-type: none; }
   .pushy li {
     list-style: none;
@@ -489,7 +494,9 @@ To do:
     transform: translateY(-50%) rotate(90deg); }
 
 .go-to-wrapper {
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
   margin-top: 52px;
   position: fixed;
   display: flex;
@@ -560,7 +567,7 @@ To do:
     color: #000; }
 
 .go-to-heading {
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: 'Times New Roman', Georgia, serif;
   font-style: italic; }
   @media screen and (min-width: 750px) {
     .go-to-heading {
@@ -598,7 +605,9 @@ a.anchor {
       color: #ff5500; }
 
 .further {
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
   color: #9e9b93; }
   .further a {
     color: #9e9b93;
@@ -641,11 +650,13 @@ a.anchor {
 Add negative margin to accomodate the quotation mark
 */
 .curating .screenings {
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: 'Times New Roman', Georgia, serif;
   padding-left: 1.25em; }
 
 .curating-explanation {
-  font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
   color: #000; }
   .curating-explanation a {
     color: #000;

@@ -9,18 +9,22 @@
 @mixin sans-roman {font-family: 'SansRoman-Regular', Helvetica, Arial, sans-serif;}
 @mixin sans-roman-rotalic {font-family: 'SansRoman-Rotalic', Helvetica, Arial, sans-serif;}
 @mixin artisan {font-family: 'Artisan-Regular', Courier, monospace;}
-@mixin romansque {font-family: 'RomanSque-Regular', Helvetica, Arial, sans-serif;}
+@mixin romansque {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	letter-spacing: 0.02em;
+}
 @mixin shelter {font-family: 'Shelter-Medium', Helvetica, Arial, sans-serif;}
-@mixin baskerville {font-family: 'Libre Baskerville', Georgia, serif;};
+@mixin baskerville {font-family: 'Times New Roman', Georgia, serif;};
 
 /* Font sizing
 ----------------------------------------------------------------------------- */
 
-$font-tiny:   13px;
-$font-small:  15px;
-$font-medium: 16px;
-$font-large:  17px;
-$font-huge:   18px;
+$font-tiny:   18px;
+$font-small:  19px;
+$font-medium: 20px;
+$font-large:  21px;
+$font-huge:   22px;
 
 @mixin body-font {
 	font-size: $font-tiny;
@@ -52,9 +56,11 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 }
 
 h1 {
-	@include romansque;
+	// @include romansque;
+	// font-family: Helvetica, sans-serif;
+	font-weight: bold;
 	font-size: 2em;
-	letter-spacing: -0.07em;
+	// letter-spacing: -0.07em;
 	// letter-spacing: 0.07em;
 	// text-transform: uppercase;
 	// color: $accent-color-primary;
