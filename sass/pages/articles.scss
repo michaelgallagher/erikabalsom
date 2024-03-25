@@ -91,16 +91,16 @@ a.anchor {
     @include breakpoint(huge)   {top: -404px;}
 }
 
-.article {
-  margin-bottom: 3em;
-  a {
-    color: $theme-faded;
-    text-decoration: underline;
-    &:hover {
-      color: $accent-color-tertiary;
-    }
-  }
-}
+// .article {
+//   margin-bottom: 3em;
+//   a {
+//     color: $theme-faded;
+//     text-decoration: underline;
+//     &:hover {
+//       color: $accent-color-tertiary;
+//     }
+//   }
+// }
 
 .further {
   @include romansque;

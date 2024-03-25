@@ -103,7 +103,7 @@ html, body {
 body {
   font-family: 'Times New Roman', Georgia, serif;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
   font-variant-ligatures: common-ligatures; }
   @media screen and (min-width: 750px) {
@@ -124,10 +124,7 @@ h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, blockquote, pre {
 
 h1 {
   font-weight: bold;
-  border: 3px solid black;
-  background-color: white;
   margin: 0 0 2em 0;
-  padding: 7.5px 20px 9.5px 20px;
   display: inline-block; }
 
 p {
@@ -193,7 +190,7 @@ p {
       padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
     padding: 10px 20px 11px 20px;
-    background-color: #e4f8ec;
+    background-color: #ffffff;
     border: 3px solid black;
     border-radius: 0px; }
   .navigation ul {
@@ -579,14 +576,6 @@ a.anchor {
   @media screen and (min-width: 1500px) {
     a.anchor {
       top: -404px; } }
-.article {
-  margin-bottom: 3em; }
-  .article a {
-    color: #9e9b93;
-    text-decoration: underline; }
-    .article a:hover {
-      color: #ff5500; }
-
 .further {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9em;
@@ -615,30 +604,23 @@ a.anchor {
 .excerpted, .contributor-list {
   padding-left: 2.5em; }
 
-.criticism .content h1 {
+.criticism .content h1, .books .content h1 {
   margin-left: 40px;
   margin-right: 40px; }
 
-.criticism .content p {
-  padding-top: 0.72em;
-  border-top: 1px solid rgba(0, 0, 0, 0.07);
-  padding-bottom: 0.75em;
-  padding-left: 40px;
-  padding-right: 40px; }
-
-.criticism .content ul {
+.criticism .content ul, .books .content ul {
   text-decoration: none;
   margin: 0;
   padding: 0; }
 
-.criticism .content li {
+.criticism .content li, .books .content li {
   list-style-type: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 40px 12px 40px; }
-  .criticism .content li:first-of-type {
+  .criticism .content li:first-of-type, .books .content li:first-of-type {
     border-top: none; }
 
-.criticism .content .excerpted-in {
+.criticism .content .excerpted-in, .books .content .excerpted-in {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0;
@@ -646,17 +628,17 @@ a.anchor {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9em; }
 
-.criticism .content .excerpted {
+.criticism .content .excerpted, .books .content .excerpted {
   margin-top: 0; }
-  .criticism .content .excerpted p {
+  .criticism .content .excerpted p, .books .content .excerpted p {
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 0;
     border-top: none; }
 
-/*
-Add negative margin to accomodate the quotation mark
-*/
+.books .content li {
+  padding: 40px 40px 42px 40px; }
+
 .curating .screenings {
   font-family: 'Times New Roman', Georgia, serif;
   padding-left: 1.25em; }
