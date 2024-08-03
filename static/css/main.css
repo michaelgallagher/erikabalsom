@@ -189,10 +189,9 @@ p {
       padding-left: 152px;
       padding-right: 152px; } }
   .navigation .nav-inner-wrapper {
-    padding: 10px 20px 11px 20px;
+    padding: 20px 32px 22px 32px;
     background-color: #ffffff;
-    border: 3px solid black;
-    border-radius: 0px; }
+    box-shadow: 0px 0px 60px #bb00ff; }
   .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -476,31 +475,31 @@ To do:
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9em;
   letter-spacing: 0.02em;
-  margin-top: 52px;
+  margin-top: 76px;
   position: fixed;
   display: flex;
   margin-left: 6px;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
   @media screen and (min-width: 750px) {
     .go-to-wrapper {
-      margin-top: 80px; } }
+      margin-top: 101px; } }
   @media screen and (min-width: 920px) {
     .go-to-wrapper {
-      margin-top: 85px; } }
+      margin-top: 106px; } }
   @media screen and (min-width: 1150px) {
     .go-to-wrapper {
-      margin-top: 92px; } }
+      margin-top: 112px; } }
   @media screen and (min-width: 1500px) {
     .go-to-wrapper {
-      margin-top: 103px; } }
+      margin-top: 120px; } }
   @media screen and (min-width: 750px) {
     .go-to-wrapper {
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
 .go-to-inner {
-  background-color: #eef5fb;
-  border: 3px solid black;
+  background-color: #bb00ff;
   border-radius: 0px;
   display: flex;
   justify-content: center;
@@ -508,9 +507,10 @@ To do:
   padding: 0; }
   @media screen and (min-width: 750px) {
     .go-to-inner {
-      padding: 10px 24px 12px 24px; } }
+      padding: 20px 32px 22px 32px; } }
 .go-to {
-  color: #000; }
+  box-shadow: 0px 0px 60px #bb00ff;
+  color: white; }
   @media screen and (min-width: 750px) {
     .go-to {
       display: flex;
@@ -540,11 +540,11 @@ To do:
     .go-to li:last-of-type {
       padding-right: 0; }
   .go-to li a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     text-align: center; }
   .go-to li a:hover {
-    color: #000; }
+    color: rgba(255, 255, 255, 0.7); }
 
 .go-to-heading {
   font-family: 'Times New Roman', Georgia, serif;

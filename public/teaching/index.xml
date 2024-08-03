@@ -4,7 +4,8 @@
     <title>Teaching on Erika Balsom</title>
     <link>https://erikabalsom.com/teaching/</link>
     <description>Recent content in Teaching on Erika Balsom</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://erikabalsom.com/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://erikabalsom.com/teaching/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
