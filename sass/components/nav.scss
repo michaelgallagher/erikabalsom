@@ -4,7 +4,7 @@
   margin-top: 6px;
   position: fixed;
   width: 100%;
-  @include breakpoint(small) {
+  @include breakpoint(large) {
     @include margin-vert-top;
   }
 
@@ -12,7 +12,7 @@
   .nav-wrapper { 
     margin-left: 6px;
     margin-right: 6px;
-    @include breakpoint(small) {
+    @include breakpoint(large) {
       @include margins-horiz;
       display: flex;
       justify-content: center;
@@ -54,17 +54,17 @@
   .nav-current {color: #fff;}
 
   .tiny-title {
-    @include breakpoint(small)  {display: none;}
+    @include breakpoint(medium)  {display: none;}
   }
   .menu-button {
     float: right;
     padding-right: 0;
-    @include breakpoint(small)  {display: none;}
+    @include breakpoint(medium)  {display: none;}
 
   }
   .hide-small {
     display: none;
-    @include breakpoint(small)  {display: block;}
+    @include breakpoint(medium)  {display: block;}
   }
 
 }

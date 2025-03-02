@@ -168,44 +168,44 @@ p {
   margin-top: 6px;
   position: fixed;
   width: 100%; }
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 1150px) {
     .navigation {
       padding-top: 20px; } }
-  @media screen and (min-width: 750px) and (min-width: 750px) {
+  @media screen and (min-width: 1150px) and (min-width: 750px) {
     .navigation {
       padding-top: 24px; } }
-  @media screen and (min-width: 750px) and (min-width: 920px) {
+  @media screen and (min-width: 1150px) and (min-width: 920px) {
     .navigation {
       padding-top: 27px; } }
-  @media screen and (min-width: 750px) and (min-width: 1150px) {
+  @media screen and (min-width: 1150px) and (min-width: 1150px) {
     .navigation {
       padding-top: 32px; } }
-  @media screen and (min-width: 750px) and (min-width: 1500px) {
+  @media screen and (min-width: 1150px) and (min-width: 1500px) {
     .navigation {
       padding-top: 38px; } }
   .navigation .nav-wrapper {
     margin-left: 6px;
     margin-right: 6px; }
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 1150px) {
       .navigation .nav-wrapper {
         padding-left: 20px;
         padding-right: 20px;
         display: flex;
         justify-content: center;
         align-items: center; } }
-  @media screen and (min-width: 750px) and (min-width: 750px) {
+  @media screen and (min-width: 1150px) and (min-width: 750px) {
     .navigation .nav-wrapper {
       padding-left: 48px;
       padding-right: 48px; } }
-  @media screen and (min-width: 750px) and (min-width: 920px) {
+  @media screen and (min-width: 1150px) and (min-width: 920px) {
     .navigation .nav-wrapper {
       padding-left: 81px;
       padding-right: 81px; } }
-  @media screen and (min-width: 750px) and (min-width: 1150px) {
+  @media screen and (min-width: 1150px) and (min-width: 1150px) {
     .navigation .nav-wrapper {
       padding-left: 96px;
       padding-right: 96px; } }
-  @media screen and (min-width: 750px) and (min-width: 1500px) {
+  @media screen and (min-width: 1150px) and (min-width: 1500px) {
     .navigation .nav-wrapper {
       padding-left: 152px;
       padding-right: 152px; } }
@@ -237,18 +237,18 @@ p {
     color: rgba(255, 255, 255, 0.7); }
   .navigation .nav-current {
     color: #fff; }
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 920px) {
     .navigation .tiny-title {
       display: none; } }
   .navigation .menu-button {
     float: right;
     padding-right: 0; }
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 920px) {
       .navigation .menu-button {
         display: none; } }
   .navigation .hide-small {
     display: none; }
-    @media screen and (min-width: 750px) {
+    @media screen and (min-width: 920px) {
       .navigation .hide-small {
         display: block; } }
 .pushy li {
@@ -699,6 +699,15 @@ a.red-link {
 
 .teaching .content li:before {
   content: "— "; }
+
+.book-series .content p {
+  margin-left: 0.4em;
+  max-width: 720px; }
+
+.book-series .books-list p {
+  margin-bottom: 1em; }
+  .book-series .books-list p:last-of-type {
+    margin-bottom: 0; }
 
 .about p {
   font-size: 1.8em;

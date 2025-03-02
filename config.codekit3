@@ -79,6 +79,14 @@
 		"oAP": "/content/articles/_index.html",
 		"oF": 0
 		},
+	"/content/book-series/_index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/content/book-series/_index.html",
+		"oF": 0
+		},
 	"/content/books/_index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -160,6 +168,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/articles/list.html",
+		"oF": 0
+		},
+	"/layouts/book-series/list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/layouts/book-series/list.html",
 		"oF": 0
 		},
 	"/layouts/books/list.html": {
@@ -264,6 +280,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/public/articles/index.xml",
+		"oF": 0
+		},
+	"/public/book-series/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/book-series/index.html",
+		"oF": 0
+		},
+	"/public/book-series/index.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/book-series/index.xml",
 		"oF": 0
 		},
 	"/public/books/index.html": {
@@ -620,6 +652,22 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/public/media/An Oceanic Feeling.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/media/An Oceanic Feeling.pdf",
+		"oF": 0
+		},
+	"/public/media/An-oceanic-feeling.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/media/An-oceanic-feeling.pdf",
+		"oF": 0
+		},
 	"/public/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -873,6 +921,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/pages/articles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/sass/pages/book-series.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/pages/book-series.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1179,6 +1240,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/static/media/an-oceanic-feeling.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/static/media/an-oceanic-feeling.pdf",
+		"oF": 0
 		},
 	"/static/media/GB_Projection_Series_11_Digital.pdf": {
 		"cB": 0,
