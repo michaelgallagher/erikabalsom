@@ -16,3 +16,5 @@ Erika Balsom has taught undergraduate and/or graduate courses on the following t
 - The Essay Film
 - Cinema and Portraiture
 - Temporalities of the Moving Image
+- London Film Cultures
+- Media Cultures
