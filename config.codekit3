@@ -52,25 +52,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/content/about/_index.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/content/about/_index.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/content/articles/_index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -152,14 +133,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/layouts/_defaults/single.html",
-		"oF": 0
-		},
-	"/layouts/about/list.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/layouts/about/list.html",
 		"oF": 0
 		},
 	"/layouts/articles/list.html": {
@@ -899,19 +872,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/sass/pages/about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/sass/pages/about.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/sass/pages/articles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -960,6 +920,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/pages/curating.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/sass/pages/home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/pages/home.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
