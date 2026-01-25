@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://erikabalsom.com/articles/</loc>
+    <loc>http://localhost:1313/articles/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/book-series/</loc>
+    <loc>http://localhost:1313/book-series/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/books/</loc>
+    <loc>http://localhost:1313/books/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/criticism/</loc>
+    <loc>http://localhost:1313/criticism/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/curating/</loc>
+    <loc>http://localhost:1313/curating/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/categories/home/</loc>
+    <loc>http://localhost:1313/categories/home/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/talks/</loc>
+    <loc>http://localhost:1313/talks/</loc>
   </url><url>
-    <loc>https://erikabalsom.com/teaching/</loc>
+    <loc>http://localhost:1313/teaching/</loc>
   </url>
 </urlset>
