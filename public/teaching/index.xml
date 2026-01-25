@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Erika Balsom</title>
-    <link>http://localhost:1313/teaching/</link>
+    <link>https://erikabalsom.com/teaching/</link>
     <description>Recent content in Teaching on Erika Balsom</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://erikabalsom.com/teaching/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
