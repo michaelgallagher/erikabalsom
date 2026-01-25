@@ -19,3 +19,4 @@ Erika Balsom has taught undergraduate and/or graduate courses on the following t
 - London Film Cultures
 - Media Cultures
 - Avant-Garde Cinema
+- Experimental Documentary
